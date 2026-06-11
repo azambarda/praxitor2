@@ -1811,5 +1811,7 @@ export function getDomain(slug) {
   return domains.find((d) => d.slug === slug) || null
 }
 
-// Featured domains for homepage preview (first 6)
-export const featuredDomains = domains.slice(0, 6)
+// Featured domains for homepage preview — eclectic selection showing portfolio range
+export const featuredDomains = ['arzento', 'vienze', 'vautix', 'beloqua', 'veltova', 'solerya']
+  .map(slug => domains.find(d => d.slug === slug))
+  .filter(Boolean)
