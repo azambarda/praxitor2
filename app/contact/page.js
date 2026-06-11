@@ -34,6 +34,8 @@ export default function ContactPage() {
             <input type="hidden" name="access_key" value="fb157b8a-ffa6-4107-9e88-68df3d19823b" />
             <input type="hidden" name="subject" value="New contact — Praxitor" />
             <input type="hidden" name="redirect" value="https://praxitor.com/thank-you" />
+            {/* Honeypot anti-spam */}
+            <input type="checkbox" name="botcheck" style={{ display: 'none' }} />
 
             <div className={styles.field}>
               <label className={styles.label} htmlFor="name">Name</label>
@@ -49,8 +51,6 @@ export default function ContactPage() {
               <label className={styles.label} htmlFor="message">Message</label>
               <textarea className={styles.textarea} id="message" name="message" rows={5} required />
             </div>
-
-            <div className="cf-turnstile" data-sitekey="0x4AAAAAACN-ZxRB1OeFTRtx" />
 
             <button type="submit" className="btn-primary">
               Send message
