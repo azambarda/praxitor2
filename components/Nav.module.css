@@ -1,0 +1,120 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.15rem var(--pad-x);
+}
+
+.wordmark {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 0.95rem;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.dot { color: var(--gold); }
+
+/* Desktop links */
+.links {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+.links a {
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.links a:hover { color: var(--text); }
+
+/* Hamburger button */
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.bar {
+  display: block;
+  width: 22px;
+  height: 1px;
+  background: var(--text);
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.barTop {
+  display: block;
+  width: 22px;
+  height: 1px;
+  background: var(--text);
+  transform: translateY(6px) rotate(45deg);
+}
+
+.barMid {
+  display: block;
+  width: 22px;
+  height: 1px;
+  background: var(--text);
+  opacity: 0;
+}
+
+.barBot {
+  display: block;
+  width: 22px;
+  height: 1px;
+  background: var(--text);
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+/* Mobile menu */
+.mobileMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 1.5rem var(--pad-x) 2rem;
+}
+
+.mobileLinks {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.mobileLinks a {
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--text);
+  text-decoration: none;
+}
+
+/* Mobile breakpoint */
+@media (max-width: 640px) {
+  .links { display: none; }
+  .burger { display: flex; }
+}
