@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
+import OfferForm from '@/components/OfferForm'
 import { domains, getDomain } from '@/data/domains'
 import styles from './page.module.css'
 
@@ -22,19 +23,10 @@ export default function DomainPage({ params }) {
   const domain = getDomain(params.slug)
   if (!domain) notFound()
 
-  const mailtoSubject = encodeURIComponent(
-    `Acquisition interest: ${domain.name}${domain.tld}`
-  )
-  const mailtoBody = encodeURIComponent(
-    `Hi,\n\nI'm interested in acquiring ${domain.name}${domain.tld}.\n\nMy offer:\nIntended use:\n\nLooking forward to hearing from you.`
-  )
-  const mailto = `mailto:contact@praxitor.com?subject=${mailtoSubject}&body=${mailtoBody}`
-
   return (
     <>
       <Nav />
 
-      {/* Domain hero */}
       <section className={styles.hero}>
         <Link href="/domains" className={styles.back}>
           ← Portfolio
@@ -50,15 +42,12 @@ export default function DomainPage({ params }) {
 
       <div className="rule" />
 
-      {/* Details + Offer */}
       <div className={styles.body}>
         <div className={styles.bodyInner}>
 
-          {/* Description */}
           <section className={styles.detail}>
             <span className="section-label">About this name</span>
             <p className={styles.description}>{domain.description}</p>
-
             <ul className={styles.highlights}>
               {domain.highlights.map((h, i) => (
                 <li key={i} className={styles.highlight}>
@@ -69,10 +58,8 @@ export default function DomainPage({ params }) {
             </ul>
           </section>
 
-          {/* Offer panel */}
           <section className={styles.offerPanel}>
             <span className="section-label">Acquire this domain</span>
-
             <div className={styles.offerCard}>
               <p className={styles.offerName}>
                 {domain.name}
@@ -81,29 +68,14 @@ export default function DomainPage({ params }) {
               <p className={styles.offerMeta}>
                 Direct owner · Escrow-protected · 24h response
               </p>
-
               <div className={styles.offerDivider} />
-
-              <div className={styles.offerActions}>
-                <a href={mailto} className="btn-primary" style={{ textAlign: 'center' }}>
-                  Submit an offer
-                </a>
-                <p className={styles.offerNote}>
-                  Or email{' '}
-                  <a href="mailto:contact@praxitor.com" className={styles.offerEmail}>
-                    contact@praxitor.com
-                  </a>
-                  {' '}directly.
-                </p>
-              </div>
-
+              <OfferForm domainName={domain.name} domainTld={domain.tld} />
               <div className={styles.trustRow}>
                 {['Direct owner', 'Escrow.com', 'Fast transfer'].map((t) => (
                   <span key={t} className={styles.trustItem}>{t}</span>
                 ))}
               </div>
             </div>
-
             <p className={styles.escrowNote}>
               Transactions secured via{' '}
               <a
@@ -114,14 +86,13 @@ export default function DomainPage({ params }) {
               >
                 Escrow.com
               </a>{' '}
-              or registrar push. Ownership transfer typically completes within 48 hours of payment.
+              or registrar push. Transfer typically completes within 48 hours of payment.
             </p>
           </section>
 
         </div>
       </div>
 
-      {/* Other names */}
       <section className={styles.related}>
         <div className="section-inner">
           <span className="section-label">Browse more</span>
