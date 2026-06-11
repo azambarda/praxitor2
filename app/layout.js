@@ -10,7 +10,7 @@ const cormorant = Cormorant_Garamond({
 })
 
 const instrumentSans = Instrument_Sans({
-  weight: ['300', '400', '500'],
+  weight: ['400', '500'],
   subsets: ['latin'],
   variable: '--font-instrument',
   display: 'swap',
