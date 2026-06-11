@@ -5,6 +5,7 @@ import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import Nav from '../../components/Nav'
 import Footer from '../../components/Footer'
+import OfferForm from '../../components/OfferForm'
 import { getDomain } from '../../data/domains'
 import styles from './page.module.css'
 
@@ -40,12 +41,6 @@ function InquireContent() {
     'Transactions secured via Escrow.com',
     'Domain transferred to your registrar in 24–48 hours',
   ]
-
-  const mailtoSubject = encodeURIComponent(`Acquisition interest: ${domainParam}`)
-  const mailtoBody = encodeURIComponent(
-    `Hi,\n\nI'm interested in acquiring ${domainParam}.\n\nMy offer:\nIntended use:\n\nLooking forward to hearing from you.`
-  )
-  const mailto = `mailto:contact@praxitor.com?subject=${mailtoSubject}&body=${mailtoBody}`
 
   return (
     <>
@@ -87,22 +82,7 @@ function InquireContent() {
                 Direct owner · Escrow-protected · 24h response
               </p>
               <div className={styles.offerDivider} />
-              <div className={styles.offerActions}>
-                <a
-                  href={mailto}
-                  className="btn-primary"
-                  style={{ textAlign: 'center' }}
-                >
-                  Submit an offer
-                </a>
-                <p className={styles.offerNote}>
-                  Or email{' '}
-                  <a href="mailto:contact@praxitor.com" className={styles.offerEmail}>
-                    contact@praxitor.com
-                  </a>{' '}
-                  directly.
-                </p>
-              </div>
+              <OfferForm domainName={name} domainTld={tld} />
               <div className={styles.trustRow}>
                 {['Direct owner', 'Escrow.com', 'Fast transfer'].map((t) => (
                   <span key={t} className={styles.trustItem}>{t}</span>
