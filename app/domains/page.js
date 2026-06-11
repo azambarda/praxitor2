@@ -24,12 +24,6 @@ export default function PortfolioPage() {
     ? domains
     : domains.filter(d => d.style?.includes(active))
 
-  const isLeft = (i) => i % 2 === 0
-  const isLastRow = (i) => {
-    const total = filtered.length
-    return i >= total - (total % 2 === 0 ? 2 : 1)
-  }
-
   return (
     <>
       <Nav />
@@ -71,33 +65,31 @@ export default function PortfolioPage() {
       </section>
 
       <section className={styles.grid}>
-        <div className="section-inner">
+        <div className="section-inner" style={{ padding: 0, maxWidth: '100%' }}>
           {filtered.length === 0 ? (
-            <p className={styles.empty}>No names found.</p>
+            <p className={styles.empty} style={{ padding: '3rem var(--pad-x)' }}>No names found.</p>
           ) : (
             <div className={styles.domainGrid}>
-              {filtered.map((domain, i) => (
+              {filtered.map((domain) => (
                 <Link
                   key={domain.slug}
                   href={`/domains/${domain.slug}`}
-                  className={[
-                    'domain-card',
-                    styles.domainCell,
-                    isLeft(i) ? styles.left : styles.right,
-                    isLastRow(i) ? styles.last : '',
-                  ].join(' ')}
+                  className={styles.domainCard}
                 >
-                  <div className="domain-name">
-                    {domain.name}
-                    <span className="domain-tld">{domain.tld}</span>
+                  <div className={styles.cardTop}>
+                    <div className={styles.cardName}>
+                      {domain.name}<span className={styles.cardTld}>{domain.tld}</span>
+                    </div>
+                    <div className={styles.cardTagline}>{domain.tagline}</div>
                   </div>
-                  <div className="domain-tagline">{domain.tagline}</div>
-                  <div className={styles.domainStyles}>
-                    {domain.style?.map(s => (
-                      <span key={s} className={styles.styleTag}>{s}</span>
-                    ))}
+                  <div className={styles.cardBottom}>
+                    <div className={styles.cardStyles}>
+                      {domain.style?.map(s => (
+                        <span key={s} className={styles.styleTag}>{s}</span>
+                      ))}
+                    </div>
+                    <span className={styles.cardInquire}>Inquire →</span>
                   </div>
-                  <div className="domain-cta">Inquire →</div>
                 </Link>
               ))}
             </div>
