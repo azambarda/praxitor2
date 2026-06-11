@@ -74,13 +74,10 @@
   border-color: var(--text);
 }
 
-.filterBtnActive .filterCount {
-  color: var(--muted);
-}
-
 .filterCount {
   font-size: 0.62rem;
-  color: var(--muted);
+  color: inherit;
+  opacity: 0.5;
   letter-spacing: 0;
 }
 
@@ -91,39 +88,94 @@
   letter-spacing: 0.5px;
 }
 
-/* Grid */
+/* Grid — curated collection */
 .grid {
-  padding: 4rem 0 5rem;
+  padding: 0 0 5rem;
 }
 
 .domainGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background-color: var(--border);
 }
 
-.domainCell { padding: 0; }
-
-.left {
-  border-right: 1px solid var(--border);
-  padding-right: 3rem;
-}
-
-.right { padding-left: 3rem; }
-.last { border-bottom: none; }
-
-.domainStyles {
+/* Card */
+.domainCard {
+  background: var(--bg);
+  padding: 3rem 3rem 2.5rem;
   display: flex;
-  gap: 0.35rem;
+  flex-direction: column;
+  gap: 0;
+  text-decoration: none;
+  transition: background 0.2s;
+  min-height: 220px;
+  justify-content: space-between;
+}
+
+.domainCard:hover {
+  background: var(--surface);
+}
+
+.cardTop {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.cardName {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1;
+  color: var(--text);
+}
+
+.cardTld {
+  color: var(--gold);
+  font-weight: 300;
+}
+
+.cardTagline {
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--muted);
+  max-width: 320px;
+}
+
+.cardBottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.cardStyles {
+  display: flex;
+  gap: 0.4rem;
   flex-wrap: wrap;
-  margin-top: 0.2rem;
 }
 
 .styleTag {
-  font-size: 0.6rem;
+  font-size: 0.58rem;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: var(--gold);
-  opacity: 0.7;
+  opacity: 0.65;
+}
+
+.cardInquire {
+  font-size: 0.66rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  transition: color 0.2s;
+  flex-shrink: 0;
+}
+
+.domainCard:hover .cardInquire {
+  color: var(--text);
 }
 
 .empty {
@@ -132,6 +184,7 @@
   padding: 3rem 0;
 }
 
+/* Contact prompt */
 .contactPrompt {
   background: var(--surface);
   padding: 4rem var(--pad-x);
@@ -151,11 +204,9 @@
   color: var(--text);
 }
 
+/* Mobile */
 @media (max-width: 640px) {
   .filters { top: 48px; }
-
   .domainGrid { grid-template-columns: 1fr; }
-
-  .left { border-right: none; padding-right: 0; }
-  .right { padding-left: 0; }
+  .domainCard { padding: 2.25rem var(--pad-x); min-height: auto; }
 }
