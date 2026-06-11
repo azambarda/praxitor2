@@ -1,0 +1,3 @@
+git add jsconfig.json
+git commit -m "add jsconfig"
+git push origin master:main
