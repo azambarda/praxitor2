@@ -1,5 +1,6 @@
+/* Hero */
 .hero {
-  padding: 4rem var(--pad-x) 3.5rem;
+  padding: 3.5rem var(--pad-x) 4rem;
 }
 
 .back {
@@ -8,24 +9,26 @@
   text-transform: uppercase;
   color: var(--muted);
   display: inline-block;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
   transition: color 0.2s;
+  text-decoration: none;
 }
 
 .back:hover { color: var(--text); }
 
-.domainDisplay {
-  max-width: 800px;
+.heroInner {
+  max-width: 900px;
 }
 
 .domainName {
   font-family: var(--font-display);
-  font-size: clamp(3rem, 7vw, 6rem);
+  font-size: clamp(3.5rem, 9vw, 8rem);
   font-weight: 300;
   font-style: italic;
-  line-height: 1;
+  line-height: 0.95;
   color: var(--text);
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.01em;
 }
 
 .tld {
@@ -34,15 +37,31 @@
 }
 
 .tagline {
-  font-size: 1rem;
+  font-size: 1.05rem;
   line-height: 1.65;
   color: var(--muted);
-  max-width: 520px;
+  max-width: 540px;
+  margin-bottom: 1.5rem;
 }
 
-/* Body layout */
+.styleChips {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.chip {
+  font-size: 0.62rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold);
+  border: 1px solid rgba(184, 150, 74, 0.3);
+  padding: 0.3rem 0.7rem;
+}
+
+/* Body */
 .body {
-  padding: 4.5rem 0;
+  padding: 5rem 0 6rem;
 }
 
 .bodyInner {
@@ -50,15 +69,27 @@
   margin: 0 auto;
   padding: 0 var(--pad-x);
   display: grid;
-  grid-template-columns: 1fr 380px;
+  grid-template-columns: 1fr 360px;
   gap: 5rem;
   align-items: start;
 }
 
 /* Detail column */
+.pullQuote {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--text);
+  border-left: 2px solid var(--gold);
+  padding-left: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .description {
   font-size: 0.95rem;
-  line-height: 1.8;
+  line-height: 1.85;
   color: var(--muted);
   margin-bottom: 2rem;
 }
@@ -84,16 +115,26 @@
   line-height: 1.4;
 }
 
-/* Offer panel */
+/* Sticky offer panel */
+.offerAside {
+  position: relative;
+}
+
+.stickyPanel {
+  position: sticky;
+  top: 100px;
+}
+
 .offerCard {
   background: var(--surface);
   border: 1px solid var(--border);
   padding: 2rem;
+  margin-bottom: 1.25rem;
 }
 
 .offerName {
   font-family: var(--font-display);
-  font-size: 1.65rem;
+  font-size: 1.75rem;
   font-weight: 400;
   font-style: italic;
   color: var(--text);
@@ -116,41 +157,17 @@
   margin-bottom: 1.5rem;
 }
 
-.offerActions {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-.offerNote {
-  font-size: 0.75rem;
-  color: var(--muted);
-  text-align: center;
-}
-
-.offerEmail {
-  color: var(--text);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.offerDivider2 {
-  height: 1px;
-  background: var(--border);
-  margin: 1.5rem 0;
-}
-
 .trustRow {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
   border-top: 1px solid var(--border);
   padding-top: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 .trustItem {
-  font-size: 0.66rem;
+  font-size: 0.62rem;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: var(--muted);
@@ -159,7 +176,6 @@
 }
 
 .escrowNote {
-  margin-top: 1.25rem;
   font-size: 0.75rem;
   line-height: 1.65;
   color: var(--muted);
@@ -171,7 +187,7 @@
   text-underline-offset: 2px;
 }
 
-/* Related names */
+/* Related */
 .related {
   padding: 4rem 0;
   border-top: 1px solid var(--border);
@@ -191,6 +207,7 @@
   padding: 1.5rem 2rem 1.5rem 0;
   border-right: 1px solid var(--border);
   transition: opacity 0.2s;
+  text-decoration: none;
 }
 
 .relatedItem:last-child {
@@ -199,10 +216,7 @@
   padding-left: 2rem;
 }
 
-.relatedItem:not(:first-child):not(:last-child) {
-  padding-left: 2rem;
-}
-
+.relatedItem:not(:first-child):not(:last-child) { padding-left: 2rem; }
 .relatedItem:hover { opacity: 0.65; }
 
 .relatedName {
@@ -229,6 +243,8 @@
     gap: 3rem;
   }
 
+  .stickyPanel { position: static; }
+
   .relatedLinks {
     grid-template-columns: 1fr 1fr;
   }
@@ -238,21 +254,13 @@
     padding-left: 2rem;
   }
 
-  .relatedItem:nth-child(odd) {
-    padding-right: 2rem;
-  }
-
-  .relatedItem:last-child {
-    padding-left: 0;
-  }
+  .relatedItem:last-child { padding-left: 0; }
 }
 
 @media (max-width: 480px) {
-  .domainName { font-size: 2.8rem; }
+  .domainName { font-size: 3rem; }
 
-  .relatedLinks {
-    grid-template-columns: 1fr;
-  }
+  .relatedLinks { grid-template-columns: 1fr; }
 
   .relatedItem,
   .relatedItem:last-child,
