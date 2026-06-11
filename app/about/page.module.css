@@ -1,0 +1,136 @@
+.hero {
+  padding: 6rem var(--pad-x) 5rem;
+  max-width: 820px;
+}
+
+.eyebrow {
+  font-size: 0.68rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 1.75rem;
+}
+
+.headline {
+  font-family: var(--font-display);
+  font-size: clamp(2.6rem, 5vw, 4.4rem);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.1;
+  color: var(--text);
+}
+
+/* Body */
+.body {
+  padding: 5rem 0 6rem;
+}
+
+.bodyInner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 var(--pad-x);
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 6rem;
+  align-items: start;
+}
+
+/* Main text */
+.lead {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.65;
+  color: var(--text);
+  margin-bottom: 2.25rem;
+}
+
+.para {
+  font-size: 0.95rem;
+  line-height: 1.85;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.para:last-child {
+  margin-bottom: 0;
+}
+
+/* Sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-left: 1px solid var(--border);
+  padding-left: 3rem;
+}
+
+.sideBlock {
+  padding: 1.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.sideBlock:last-child {
+  border-bottom: none;
+}
+
+.sideLabel {
+  font-size: 0.66rem;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 0.65rem;
+}
+
+.sideText {
+  font-size: 0.82rem;
+  line-height: 1.65;
+  color: var(--muted);
+}
+
+.email {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-size: 0.82rem;
+}
+
+/* Closing quote */
+.closing {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  padding: 6rem var(--pad-x);
+}
+
+.closingInner {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.closingQuote {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.65;
+  color: var(--text);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .bodyInner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .sidebar {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid var(--border);
+    padding-top: 2rem;
+  }
+}
