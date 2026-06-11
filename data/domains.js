@@ -1150,7 +1150,6 @@ export const domains = [
       'Credible at any stage — from startup to established innovator',
     ],
   },
-  },
 
   // --- Batch 3 ---
 
