@@ -237,8 +237,6 @@ export const domains = [
       'Premium positioning across personal care and wellness',
     ],
   },
-]
-
   {
     slug: 'veltova',
     name: 'Veltova',
@@ -463,6 +461,7 @@ export const domains = [
       'Strong platform name — scales from app to global brand',
     ],
   },
+]
 
 export function getDomain(slug) {
   return domains.find((d) => d.slug === slug) || null
