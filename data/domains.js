@@ -239,6 +239,231 @@ export const domains = [
   },
 ]
 
+  {
+    slug: 'veltova',
+    name: 'Veltova',
+    tld: '.com',
+    tagline: 'Velvet precision — premium materials, fashion, and luxury goods',
+    categories: ['fashion', 'luxury', 'consumer'],
+    description:
+      'Velvet encoded into a modern brandable name. The -tova ending gives it Eastern European elegance — strong for a premium textile brand, luxury accessories, or a fashion house with material sensibility.',
+    highlights: [
+      'Material luxury association without being literal',
+      'Distinctive phonetic texture — the name feels like what it evokes',
+      'Strong positioning for fashion, interiors, and premium DTC',
+    ],
+  },
+  {
+    slug: 'perfeza',
+    name: 'Perfeza',
+    tld: '.com',
+    tagline: 'Perfection refined — beauty, skincare, and premium personal care',
+    categories: ['beauty', 'wellness', 'luxury'],
+    description:
+      'Perfezione (perfection in Italian) distilled into a brandable form. Carries the aspiration of flawlessness without the genericness of "perfect" — ideal for a premium beauty brand that makes a quality promise.',
+    highlights: [
+      'Aspiration built into the name — no tagline required',
+      'Strong Italian phonetics for beauty and skincare categories',
+      'Clean visual identity — no awkward letter clusters',
+    ],
+  },
+  {
+    slug: 'ecletta',
+    name: 'Ecletta',
+    tld: '.com',
+    tagline: 'Eclectic and precise — creative studios, media, and culture brands',
+    categories: ['media', 'culture', 'creative'],
+    description:
+      'Eclectic compressed into an Italian-inflected name. The double-t gives it typographic rhythm — works for a creative studio, a curated media platform, or a cultural brand with a distinctive editorial voice.',
+    highlights: [
+      'Creative and intellectual resonance without jargon',
+      'Strong typographic identity — memorable in print and screen',
+      'Versatile across media, culture, and design sectors',
+    ],
+  },
+  {
+    slug: 'clanova',
+    name: 'Clanova',
+    tld: '.com',
+    tagline: 'Clean and new — tech platforms, SaaS, and modern consumer brands',
+    categories: ['tech', 'saas', 'consumer'],
+    description:
+      'Clara + nova — clarity and newness fused into a single crisp name. Reads as modern and forward-looking without belonging to any single decade. Strong for a product launch, a SaaS platform, or a consumer brand built on transparency.',
+    highlights: [
+      'Clarity and innovation embedded phonetically',
+      'Sector-neutral — works across tech, health, and consumer',
+      'Three syllables with immediate recall',
+    ],
+  },
+  {
+    slug: 'kellora',
+    name: 'Kellora',
+    tld: '.com',
+    tagline: 'Warm and confident — lifestyle, wellness, and direct-to-consumer',
+    categories: ['lifestyle', 'wellness', 'consumer'],
+    description:
+      'Three warm syllables with a grounded confidence. The -ora ending gives it a Mediterranean warmth — strong for a wellness brand, a lifestyle platform, or a DTC brand targeting women with premium sensibility.',
+    highlights: [
+      'Warm phonetics with immediate brand recall',
+      'Strong buyer profile in wellness and lifestyle categories',
+      'Feminine lean without being exclusionary',
+    ],
+  },
+  {
+    slug: 'zenrya',
+    name: 'Zenrya',
+    tld: '.com',
+    tagline: 'Calm and focused — wellness, mindfulness, and mental health tech',
+    categories: ['wellness', 'health', 'tech'],
+    description:
+      'Zen distilled into a two-syllable modern name. The -rya ending gives it an Eastern inflection that reads as considered rather than derivative — strong for a mindfulness platform, a wellness app, or a mental health brand.',
+    highlights: [
+      'Zen resonance without using the word itself',
+      'Strong fit for wellness, meditation, and mental health categories',
+      'Short and memorable — excellent for app and mobile contexts',
+    ],
+  },
+  {
+    slug: 'mavenda',
+    name: 'Mavenda',
+    tld: '.com',
+    tagline: 'Bold and versatile — marketplaces, commerce, and B2B platforms',
+    categories: ['commerce', 'marketplace', 'saas'],
+    description:
+      'Three assertive syllables with commercial energy. Mavenda reads as a platform name — strong for a marketplace, a B2B commerce tool, or a vendor management solution that wants to project confidence and scale.',
+    highlights: [
+      'Commercial energy without being literal',
+      'Strong platform and marketplace candidate',
+      'Confident at enterprise scale — works for B2B and B2C alike',
+    ],
+  },
+  {
+    slug: 'felzora',
+    name: 'Felzora',
+    tld: '.com',
+    tagline: 'Vibrant and distinctive — consumer brands with expressive identity',
+    categories: ['consumer', 'lifestyle', 'beauty'],
+    description:
+      'Three expressive syllables with a vibrant character. Felzora has the energy of a consumer brand that leads with personality — strong for beauty, food, lifestyle, or any DTC brand that wants to stand out in a crowded category.',
+    highlights: [
+      'High expressive energy — memorable in advertising contexts',
+      'No dictionary conflict or trademark proximity risk',
+      'Strong across beauty, food, and lifestyle categories',
+    ],
+  },
+  {
+    slug: 'manezzo',
+    name: 'Manezzo',
+    tld: '.com',
+    tagline: 'Italian craft and precision — food, hospitality, and artisan brands',
+    categories: ['food', 'hospitality', 'lifestyle'],
+    description:
+      'Maneggio (handling, craft) shaped into a premium brandable name. The double-z gives it Italian typographic character — strong for an artisan food brand, a premium hospitality concept, or a craft-focused consumer product.',
+    highlights: [
+      'Italian craft resonance — immediate premium association',
+      'Strong fit for food, wine, hospitality, and artisan categories',
+      'Memorable double-z creates distinctive visual identity',
+    ],
+  },
+  {
+    slug: 'dimenzo',
+    name: 'Dimenzo',
+    tld: '.com',
+    tagline: 'Dimension and depth — design, architecture, and spatial tech',
+    categories: ['design', 'tech', 'architecture'],
+    description:
+      'Dimensione (dimension in Italian) compressed into a modern brandable name. Strong for a design studio, an architectural firm, a 3D technology platform, or any brand that wants to signal depth and spatial thinking.',
+    highlights: [
+      'Dimension semantics for design and spatial categories',
+      'Italian root gives it European professional appeal',
+      'Strong visual identity — no ambiguous letter clusters',
+    ],
+  },
+  {
+    slug: 'sovelza',
+    name: 'Sovelza',
+    tld: '.com',
+    tagline: 'Smooth and precise — fintech, legal tech, and professional services',
+    categories: ['fintech', 'legaltech', 'professional'],
+    description:
+      'Three clean syllables with a professional register. Sovelza reads as a platform or service name — the consonant structure gives it clarity without coldness, making it strong for regulated sectors that want a modern identity.',
+    highlights: [
+      'Professional register without corporate stiffness',
+      'Strong platform name for regulated industries',
+      'Clean phonetics — no mispronunciation risk',
+    ],
+  },
+  {
+    slug: 'zanelva',
+    name: 'Zanelva',
+    tld: '.com',
+    tagline: 'Elegant and fluid — beauty, fashion, and premium lifestyle',
+    categories: ['beauty', 'fashion', 'lifestyle'],
+    description:
+      'Three flowing syllables with a feminine elegance. Zanelva reads as a personal brand or product name — the -elva ending gives it a Scandinavian-Italian hybrid quality that feels both modern and timeless.',
+    highlights: [
+      'Flowing phonetics — strong in beauty and fashion categories',
+      'Hybrid European character — Nordic precision, Italian warmth',
+      'Premium positioning without luxury price barrier',
+    ],
+  },
+  {
+    slug: 'certono',
+    name: 'Certono',
+    tld: '.com',
+    tagline: 'Certainty and authority — compliance, legal, and professional platforms',
+    categories: ['legaltech', 'compliance', 'professional'],
+    description:
+      'Certo (certain in Italian) shaped into a professional platform name. Certono carries authority and confidence — ideal for a compliance tool, a legal services platform, or any B2B brand that needs to project reliability.',
+    highlights: [
+      'Certainty and authority semantics built in',
+      'Strong positioning for compliance, legal, and regulated sectors',
+      'Professional register that scales from startup to enterprise',
+    ],
+  },
+  {
+    slug: 'celarta',
+    name: 'Celarta',
+    tld: '.com',
+    tagline: 'Art and clarity — creative agencies, design studios, and culture platforms',
+    categories: ['design', 'culture', 'creative'],
+    description:
+      'Ciel (sky) + arte (art) — sky and art fused into a clean, memorable name. Strong for a creative agency, a design studio, or a cultural platform that wants to signal both artistic ambition and clear thinking.',
+    highlights: [
+      'Art and clarity fused in a single name',
+      'Strong creative sector positioning without being generic',
+      'Clean typographic identity — distinctive at any size',
+    ],
+  },
+  {
+    slug: 'renzela',
+    name: 'Renzela',
+    tld: '.com',
+    tagline: 'Soft and elegant — personal care, beauty, and wellness',
+    categories: ['beauty', 'wellness', 'personal care'],
+    description:
+      'Three soft syllables with a gentle elegance. Renzela reads as a personal care brand — the -ela ending gives it warmth and approachability while the Ren- opening keeps it modern and uncluttered.',
+    highlights: [
+      'Gentle phonetics — natural fit for personal care and beauty',
+      'Warm without being infantile — works for adult premium segments',
+      'Strong word-of-mouth potential — easy to spell and say',
+    ],
+  },
+  {
+    slug: 'zinvera',
+    name: 'Zinvera',
+    tld: '.com',
+    tagline: 'Sharp and inventive — fintech, crypto, and modern financial platforms',
+    categories: ['fintech', 'crypto', 'tech'],
+    description:
+      'Three crisp syllables with a sharp opening. The Z- gives it energy and distinctiveness — strong for a fintech platform, a crypto product, or any financial service brand that wants to signal speed and innovation.',
+    highlights: [
+      'Sharp Z- opening — high recall in fintech and crypto categories',
+      'Inventive register without technical jargon',
+      'Strong platform name — scales from app to global brand',
+    ],
+  },
+
 export function getDomain(slug) {
   return domains.find((d) => d.slug === slug) || null
 }
