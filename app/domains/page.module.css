@@ -29,6 +29,69 @@
   max-width: 480px;
 }
 
+/* Filters */
+.filters {
+  background: var(--surface);
+  padding: 1.75rem 0;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 52px;
+  z-index: 50;
+}
+
+.filterRow {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filterBtn {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 0.45rem 0.9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.15s;
+}
+
+.filterBtn:hover {
+  color: var(--text);
+  border-color: var(--text);
+}
+
+.filterBtnActive {
+  color: var(--bg);
+  background: var(--text);
+  border-color: var(--text);
+}
+
+.filterBtnActive .filterCount {
+  color: var(--muted);
+}
+
+.filterCount {
+  font-size: 0.62rem;
+  color: var(--muted);
+  letter-spacing: 0;
+}
+
+.filterMeta {
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-top: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+/* Grid */
 .grid {
   padding: 4rem 0 5rem;
 }
@@ -45,12 +108,28 @@
   padding-right: 3rem;
 }
 
-.right {
-  padding-left: 3rem;
+.right { padding-left: 3rem; }
+.last { border-bottom: none; }
+
+.domainStyles {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  margin-top: 0.2rem;
 }
 
-.last {
-  border-bottom: none;
+.styleTag {
+  font-size: 0.6rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+  opacity: 0.7;
+}
+
+.empty {
+  font-size: 0.9rem;
+  color: var(--muted);
+  padding: 3rem 0;
 }
 
 .contactPrompt {
@@ -73,16 +152,10 @@
 }
 
 @media (max-width: 640px) {
-  .domainGrid {
-    grid-template-columns: 1fr;
-  }
+  .filters { top: 48px; }
 
-  .left {
-    border-right: none;
-    padding-right: 0;
-  }
+  .domainGrid { grid-template-columns: 1fr; }
 
-  .right {
-    padding-left: 0;
-  }
+  .left { border-right: none; padding-right: 0; }
+  .right { padding-left: 0; }
 }
