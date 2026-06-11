@@ -24,13 +24,11 @@ function InquireContent() {
     )
   }
 
-  // Parse "lumanzo.com" → slug="lumanzo", tld=".com", name="Lumanzo"
   const dotIndex = domainParam.lastIndexOf('.')
   const slug = dotIndex > 0 ? domainParam.slice(0, dotIndex) : domainParam
   const tld = dotIndex > 0 ? domainParam.slice(dotIndex) : '.com'
   const name = slug.charAt(0).toUpperCase() + slug.slice(1)
 
-  // Use rich data if domain is in the portfolio, fallback to generic
   const richDomain = getDomain(slug)
   const tagline = richDomain?.tagline || 'Available for direct acquisition — no brokers.'
   const description =
@@ -91,12 +89,7 @@ function InquireContent() {
             </div>
             <p className={styles.escrowNote}>
               Transactions secured via{' '}
-              <a
-                href="https://www.escrow.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.escrowLink}
-              >
+              <a href="https://www.escrow.com" target="_blank" rel="noopener noreferrer" className={styles.escrowLink}>
                 Escrow.com
               </a>
               {' '}or registrar push. Transfer typically completes within 48 hours of payment.
