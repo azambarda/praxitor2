@@ -11,7 +11,6 @@ export default function OfferForm({ domainName, domainTld }) {
       <input type="hidden" name="subject" value={`Acquisition offer: ${domainName}${domainTld}`} />
       <input type="hidden" name="domain" value={`${domainName}${domainTld}`} />
       <input type="hidden" name="redirect" value="https://praxitor.com/thank-you" />
-      {/* Honeypot anti-spam */}
       <input type="checkbox" name="botcheck" style={{ display: 'none' }} />
 
       <div className={styles.field}>
@@ -25,8 +24,8 @@ export default function OfferForm({ domainName, domainTld }) {
       </div>
 
       <div className={styles.field}>
-        <label className={styles.label} htmlFor="of-offer">Offer (USD)</label>
-        <input className={styles.input} type="text" id="of-offer" name="offer" placeholder="e.g. 3,500" />
+        <label className={styles.label} htmlFor="of-offer">Budget / Offer range</label>
+        <input className={styles.input} type="text" id="of-offer" name="offer" placeholder="e.g. $2,000 – $4,000" />
       </div>
 
       <div className={styles.field}>
