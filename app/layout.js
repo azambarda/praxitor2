@@ -7,23 +7,41 @@ const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
   variable: '--font-cormorant',
   display: 'swap',
+  adjustFontFallback: false,
 })
 
 const instrumentSans = Instrument_Sans({
   weight: ['400', '500'],
   subsets: ['latin'],
   variable: '--font-instrument',
-  display: 'swap',
+  display: 'optional',
+  adjustFontFallback: true,
 })
 
 export const metadata = {
   title: 'Praxitor — Premium Brandable Domains',
-  description: 'Curated portfolio of premium brandable domains available for direct acquisition. No brokers, full escrow protection.',
+  description:
+    'Curated portfolio of premium brandable domains available for direct acquisition. No brokers, full escrow protection.',
+  metadataBase: new URL('https://praxitor.com'),
   openGraph: {
     title: 'Praxitor — Premium Brandable Domains',
     description: 'The right name is already available.',
     type: 'website',
     url: 'https://praxitor.com',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Praxitor — Premium Brandable Domains',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Praxitor — Premium Brandable Domains',
+    description: 'The right name is already available.',
+    images: ['/og-image.png'],
   },
   icons: {
     icon: [
