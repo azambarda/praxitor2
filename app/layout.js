@@ -1,4 +1,5 @@
 import { Cormorant_Garamond, Instrument_Sans } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 
 const cormorant = Cormorant_Garamond({
@@ -34,7 +35,13 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${cormorant.variable} ${instrumentSans.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        {children}
+        <Script
+          src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+          strategy="lazyOnload"
+        />
+      </body>
     </html>
   )
 }
