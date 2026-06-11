@@ -6,14 +6,12 @@ import Footer from '../../components/Footer'
 import styles from './page.module.css'
 
 export default function ContactPage() {
-  const [status, setStatus] = useState('idle') // idle | sending | success | error
+  const [status, setStatus] = useState('idle')
 
   async function handleSubmit(e) {
     e.preventDefault()
     setStatus('sending')
-
     const formData = new FormData(e.target)
-
     try {
       const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
@@ -59,38 +57,20 @@ export default function ContactPage() {
 
               <div className={styles.field}>
                 <label className={styles.label} htmlFor="name">Name</label>
-                <input
-                  className={styles.input}
-                  type="text"
-                  id="name"
-                  name="name"
-                  required
-                  autoComplete="name"
-                />
+                <input className={styles.input} type="text" id="name" name="name" required autoComplete="name" />
               </div>
 
               <div className={styles.field}>
                 <label className={styles.label} htmlFor="email">Email</label>
-                <input
-                  className={styles.input}
-                  type="email"
-                  id="email"
-                  name="email"
-                  required
-                  autoComplete="email"
-                />
+                <input className={styles.input} type="email" id="email" name="email" required autoComplete="email" />
               </div>
 
               <div className={styles.field}>
                 <label className={styles.label} htmlFor="message">Message</label>
-                <textarea
-                  className={styles.textarea}
-                  id="message"
-                  name="message"
-                  rows={5}
-                  required
-                />
+                <textarea className={styles.textarea} id="message" name="message" rows={5} required />
               </div>
+
+              <div className="cf-turnstile" data-sitekey="0x4AAAAAACN-ZxRB1OeFTRtx" />
 
               {status === 'error' && (
                 <p className={styles.errorMsg}>
