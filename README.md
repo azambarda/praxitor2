@@ -1,4 +1,4 @@
-# Praxitor Website
+# Praxitor Website 
 
 Premium brandable domain portfolio — Next.js 14, App Router, plain CSS modules.
 
