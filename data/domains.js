@@ -20,7 +20,7 @@ export const domains = [
     tagline: 'A name with Florentine resonance for luxury-adjacent brands',
     categories: ['fashion', 'luxury', 'lifestyle'],
     description:
-      'Carries the cadence of Florence and the elegance of Italian naming conventions. Strong for fashion, accessories, interior design, or premium DTC.',
+      'Carries the cadence of Florence and the elegance of Italian naming conventions. Strong for fashion, accessories, interior design or premium DTC.',
     highlights: [
       'Immediate luxury association without being literal',
       'Clean visual identity — no awkward letter clusters',
