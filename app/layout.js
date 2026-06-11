@@ -18,13 +18,19 @@ const instrumentSans = Instrument_Sans({
 
 export const metadata = {
   title: 'Praxitor — Premium Brandable Domains',
-  description:
-    'Curated portfolio of premium brandable domains available for direct acquisition. No brokers, full escrow protection.',
+  description: 'Curated portfolio of premium brandable domains available for direct acquisition. No brokers, full escrow protection.',
   openGraph: {
     title: 'Praxitor — Premium Brandable Domains',
     description: 'The right name is already available.',
     type: 'website',
     url: 'https://praxitor.com',
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    apple: '/apple-touch-icon.png',
   },
 }
 
