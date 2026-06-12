@@ -11,19 +11,19 @@ export default function sitemap() {
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/domains`,
+      url: `${baseUrl}/domains/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/about`,
+      url: `${baseUrl}/about/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/contact`,
+      url: `${baseUrl}/contact/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.6,
@@ -31,7 +31,7 @@ export default function sitemap() {
   ]
 
   const domainPages = domains.map((domain) => ({
-    url: `${baseUrl}/domains/${domain.slug}`,
+    url: `${baseUrl}/domains/${domain.slug}/`,
     lastModified: new Date(),
     changeFrequency: 'monthly',
     priority: 0.8,
