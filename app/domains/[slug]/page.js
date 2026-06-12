@@ -80,16 +80,16 @@ export default function DomainPage({ params }) {
 
           {/* Description column */}
           <section className={styles.detail}>
-            {/* Pull quote — first highlight */}
+            {/* Pull quote — first sentence of description */}
             <p className={styles.pullQuote}>
-              &ldquo;{domain.highlights[0]}&rdquo;
+              &ldquo;{domain.description.split('. ')[0]}.&rdquo;
             </p>
 
             <span className="section-label" style={{ marginBottom: '1rem' }}>About this name</span>
             <p className={styles.description}>{domain.description}</p>
 
             <ul className={styles.highlights}>
-              {domain.highlights.slice(1).map((h, i) => (
+              {domain.highlights.map((h, i) => (
                 <li key={i} className={styles.highlight}>
                   <span className={styles.highlightDot}>·</span>
                   {h}
