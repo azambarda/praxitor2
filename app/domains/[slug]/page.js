@@ -37,13 +37,22 @@ export default function DomainPage({ params }) {
               {domain.name}<span className={styles.tld}>{domain.tld}</span>
             </h1>
             <p className={styles.tagline}>{domain.tagline}</p>
-            {domain.style && domain.style.length > 0 && (
-              <div className={styles.styleChips}>
-                {domain.style.map(s => (
-                  <span key={s} className={styles.chip}>{s}</span>
-                ))}
-              </div>
-            )}
+            <div className={styles.chipGroups}>
+              {domain.feel?.length > 0 && (
+                <div className={styles.feelChips}>
+                  {domain.feel.map(s => (
+                    <span key={s} className={styles.feelChip}>{s}</span>
+                  ))}
+                </div>
+              )}
+              {domain.fit?.length > 0 && (
+                <div className={styles.fitChips}>
+                  {domain.fit.map(s => (
+                    <span key={s} className={styles.fitChip}>{s}</span>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </section>
