@@ -5,7 +5,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Illuminated brand identity for premium consumer markets',
     categories: ['lifestyle', 'luxury', 'consumer'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['consumer', 'creative', 'luxury'],
     description:
       'Three clean syllables with a warm phonetic arc. The -anzo ending evokes Italian craft without literal translation — versatile for a product brand, platform, or creative studio.',
     highlights: [
@@ -20,7 +21,8 @@ export const domains = [
     tld: '.com',
     tagline: 'A name with Florentine resonance for luxury-adjacent brands',
     categories: ['fashion', 'luxury', 'lifestyle'],
-    style: ['italianate', 'strong'],
+    feel: ['italianate', 'elegant'],
+    fit: ['luxury', 'beauty', 'hospitality'],
     description:
       'Carries the cadence of Florence and the elegance of Italian naming conventions. Strong for fashion, accessories, interior design, or premium DTC.',
     highlights: [
@@ -35,7 +37,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Crisp and versatile — built for brands that need room to grow',
     categories: ['tech', 'saas', 'consumer'],
-    style: ['italianate'],
+    feel: ['italianate', 'invented'],
+    fit: ['consumer', 'saas', 'tech'],
     description:
       'A sibling to Lavanzo in phonetic structure, with a crisper opening. Works across sectors — tech, wellness, fintech — without belonging too literally to any one.',
     highlights: [
@@ -50,7 +53,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Warm and grounded — ideal for wellness, food, and lifestyle brands',
     categories: ['wellness', 'food', 'lifestyle'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['wellness', 'consumer', 'beauty'],
     description:
       'Almendra (almond) at its root, softened into a premium brandable name. Carries natural warmth without being rustic — works for premium food, wellness, or personal care.',
     highlights: [
@@ -65,7 +69,8 @@ export const domains = [
     tld: '.com',
     tagline: 'An elegant, flowing name for modern professional services',
     categories: ['professional', 'saas', 'fintech'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['professional', 'fintech', 'saas'],
     description:
       'Clean arc from first to last syllable. Reads as premium and contemporary — suited for financial services, consulting, or a SaaS platform targeting the European market.',
     highlights: [
@@ -80,7 +85,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Harmony and precision — audio, wellness, and premium tech',
     categories: ['audio', 'wellness', 'tech'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['wellness', 'creative', 'tech'],
     description:
       'Armonia (harmony) distilled into a modern brand name. Immediately evokes resonance and balance — strong for audio technology, wellness platforms, or orchestral/creative industries.',
     highlights: [
@@ -95,7 +101,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Silver — premium positioning with built-in material value',
     categories: ['luxury', 'fintech', 'consumer'],
-    style: ['italianate', 'luxury'],
+    feel: ['italianate', 'elegant'],
+    fit: ['fintech', 'luxury', 'consumer'],
     description:
       'Argento (silver) in Spanish and Italian, shaped into a brandable form. Carries inherent premium connotation — metallic, precise, high-value — without being tied to jewellery alone.',
     highlights: [
@@ -110,7 +117,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Beautiful and fluid — wellness, beauty, and premium DTC',
     categories: ['beauty', 'wellness', 'lifestyle'],
-    style: ['luxury', 'soft'],
+    feel: ['elegant', 'soft'],
+    fit: ['beauty', 'wellness', 'luxury'],
     description:
       'Bello (beautiful) + aqua (water). A rare combination — the syllables flow naturally and the word lands as premium and distinctly modern without sounding constructed.',
     highlights: [
@@ -125,7 +133,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Sun and sound — media, audio, and culture brands',
     categories: ['media', 'audio', 'culture'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['creative', 'consumer', 'hospitality'],
     description:
       'Combines the warmth of sol/sonnet with a contemporary ending. Sounds distinctive spoken aloud — strong for podcast networks, music platforms, cultural media, or audio tech.',
     highlights: [
@@ -140,7 +149,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Venice in two syllables — travel, culture, luxury',
     categories: ['travel', 'luxury', 'culture'],
-    style: ['italianate', 'short', 'soft'],
+    feel: ['italianate', 'short', 'minimal'],
+    fit: ['luxury', 'hospitality', 'creative'],
     description:
       'Venezia compressed into a modern brandable form. Carries the weight of Venetian heritage with none of the genericness — a rare name that feels discovered rather than invented.',
     highlights: [
@@ -155,7 +165,8 @@ export const domains = [
     tld: '.com',
     tagline: 'French vineyard elegance — wine, lifestyle, and premium food',
     categories: ['wine', 'food', 'lifestyle'],
-    style: ['italianate', 'luxury', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['luxury', 'hospitality', 'consumer'],
     description:
       'Vigne (vine) in French, softened with an opening vowel. Unmistakably agricultural-luxury without being agricultural. Strong for wine brands, premium hospitality, or European DTC.',
     highlights: [
@@ -170,7 +181,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Floral and adorned — beauty, wellness, and personal care',
     categories: ['beauty', 'wellness', 'personal care'],
-    style: ['italianate', 'luxury', 'strong'],
+    feel: ['italianate', 'soft'],
+    fit: ['beauty', 'wellness', 'consumer'],
     description:
       'Flora + adora, naturally. The compound is invisible — it reads as a proper invented name. Strong for beauty, skincare, or a premium lifestyle brand with a feminine lean.',
     highlights: [
@@ -185,7 +197,8 @@ export const domains = [
     tld: '.com',
     tagline: 'New light — tech, wellness, and modern brand platforms',
     categories: ['tech', 'wellness', 'saas'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['tech', 'saas', 'consumer'],
     description:
       'Luna + nova. The combination is subtle — the name lands as invented rather than composite. Neutral enough for tech, warm enough for wellness, premium enough for a platform brand.',
     highlights: [
@@ -200,7 +213,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Sky and light — premium tech, design, and wellness',
     categories: ['tech', 'design', 'wellness'],
-    style: ['luxury', 'soft'],
+    feel: ['elegant', 'soft'],
+    fit: ['luxury', 'tech', 'wellness'],
     description:
       'Caelum (Latin: sky) combined with uma — a rare classical-modern hybrid. Reads as premium and timeless, without belonging to any single decade or sector.',
     highlights: [
@@ -215,7 +229,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Minimal and precise — two syllables for premium brands',
     categories: ['tech', 'design', 'fintech'],
-    style: ['soft'],
+    feel: ['short', 'minimal', 'soft'],
+    fit: ['tech', 'fintech', 'professional'],
     description:
       'Two syllables, zero excess. The -ure ending gives it a French or English professional register — clean enough for fintech, architectural enough for design, spare enough for tech.',
     highlights: [
@@ -230,7 +245,8 @@ export const domains = [
     tld: '.com',
     tagline: 'To adorn — jewellery, fashion, and luxury accessories',
     categories: ['jewellery', 'fashion', 'luxury'],
-    style: ['luxury', 'short'],
+    feel: ['short', 'minimal'],
+    fit: ['luxury', 'beauty', 'consumer'],
     description:
       'Adorn with intentional doubling — a word-adjacent name that carries meaning without being descriptive. The slight spelling variation is memorable without being confusing.',
     highlights: [
@@ -245,7 +261,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Elegant and distinctive — beauty, wellness, and personal care',
     categories: ['beauty', 'wellness', 'consumer'],
-    style: ['luxury', 'soft'],
+    feel: ['elegant', 'soft'],
+    fit: ['beauty', 'wellness', 'consumer'],
     description:
       'Three syllables with an exotic yet accessible sound. Feels botanical, rare, and considered — strong for premium personal care, wellness, or a direct-to-consumer beauty brand.',
     highlights: [
@@ -260,7 +277,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Velvet precision — premium materials, fashion, and luxury goods',
     categories: ['fashion', 'luxury', 'consumer'],
-    style: ['luxury', 'strong'],
+    feel: ['elegant', 'strong'],
+    fit: ['luxury', 'beauty', 'consumer'],
     description:
       'Velvet encoded into a modern brandable name. The -tova ending gives it Eastern European elegance — strong for a premium textile brand, luxury accessories, or a fashion house with material sensibility.',
     highlights: [
@@ -275,7 +293,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Perfection refined — beauty, skincare, and premium personal care',
     categories: ['beauty', 'wellness', 'luxury'],
-    style: ['luxury', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['beauty', 'luxury', 'consumer'],
     description:
       'Perfezione (perfection in Italian) distilled into a brandable form. Carries the aspiration of flawlessness without the genericness of "perfect" — ideal for a premium beauty brand that makes a quality promise.',
     highlights: [
@@ -290,7 +309,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Eclectic and precise — creative studios, media, and culture brands',
     categories: ['media', 'culture', 'creative'],
-    style: ['soft'],
+    feel: ['italianate', 'soft'],
+    fit: ['creative', 'consumer', 'hospitality'],
     description:
       'Eclectic compressed into an Italian-inflected name. The double-t gives it typographic rhythm — works for a creative studio, a curated media platform, or a cultural brand with a distinctive editorial voice.',
     highlights: [
@@ -305,7 +325,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Clean and new — tech platforms, SaaS, and modern consumer brands',
     categories: ['tech', 'saas', 'consumer'],
-    style: ['tech'],
+    feel: ['invented', 'minimal'],
+    fit: ['tech', 'saas', 'consumer'],
     description:
       'Clara + nova — clarity and newness fused into a single crisp name. Reads as modern and forward-looking without belonging to any single decade. Strong for a product launch, a SaaS platform, or a consumer brand built on transparency.',
     highlights: [
@@ -320,7 +341,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Warm and confident — lifestyle, wellness, and direct-to-consumer',
     categories: ['lifestyle', 'wellness', 'consumer'],
-    style: ['italianate', 'luxury', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['wellness', 'consumer', 'beauty'],
     description:
       'Three warm syllables with a grounded confidence. The -ora ending gives it a Mediterranean warmth — strong for a wellness brand, a lifestyle platform, or a DTC brand targeting women with premium sensibility.',
     highlights: [
@@ -335,7 +357,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Calm and focused — wellness, mindfulness, and mental health tech',
     categories: ['wellness', 'health', 'tech'],
-    style: ['short', 'soft'],
+    feel: ['short', 'minimal', 'invented'],
+    fit: ['wellness', 'tech', 'saas'],
     description:
       'Zen distilled into a two-syllable modern name. The -rya ending gives it an Eastern inflection that reads as considered rather than derivative — strong for a mindfulness platform, a wellness app, or a mental health brand.',
     highlights: [
@@ -350,7 +373,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Bold and versatile — marketplaces, commerce, and B2B platforms',
     categories: ['commerce', 'marketplace', 'saas'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['fintech', 'saas', 'consumer'],
     description:
       'Three assertive syllables with commercial energy. Mavenda reads as a platform name — strong for a marketplace, a B2B commerce tool, or a vendor management solution that wants to project confidence and scale.',
     highlights: [
@@ -365,7 +389,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Vibrant and distinctive — consumer brands with expressive identity',
     categories: ['consumer', 'lifestyle', 'beauty'],
-    style: ['italianate', 'luxury', 'strong'],
+    feel: ['italianate', 'strong', 'elegant'],
+    fit: ['consumer', 'beauty', 'wellness'],
     description:
       'Three expressive syllables with a vibrant character. Felzora has the energy of a consumer brand that leads with personality — strong for beauty, food, lifestyle, or any DTC brand that wants to stand out in a crowded category.',
     highlights: [
@@ -380,7 +405,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian craft and precision — food, hospitality, and artisan brands',
     categories: ['food', 'hospitality', 'lifestyle'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'soft'],
+    fit: ['hospitality', 'consumer', 'luxury'],
     description:
       'Maneggio (handling, craft) shaped into a premium brandable name. The double-z gives it Italian typographic character — strong for an artisan food brand, a premium hospitality concept, or a craft-focused consumer product.',
     highlights: [
@@ -395,7 +421,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Dimension and depth — design, architecture, and spatial tech',
     categories: ['design', 'tech', 'architecture'],
-    style: ['italianate', 'strong'],
+    feel: ['italianate', 'strong'],
+    fit: ['tech', 'creative', 'saas'],
     description:
       'Dimensione (dimension in Italian) compressed into a modern brandable name. Strong for a design studio, an architectural firm, a 3D technology platform, or any brand that wants to signal depth and spatial thinking.',
     highlights: [
@@ -410,7 +437,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Smooth and precise — fintech, legal tech, and professional services',
     categories: ['fintech', 'legaltech', 'professional'],
-    style: ['luxury', 'soft'],
+    feel: ['elegant', 'soft'],
+    fit: ['fintech', 'professional', 'saas'],
     description:
       'Three clean syllables with a professional register. Sovelza reads as a platform or service name — the consonant structure gives it clarity without coldness, making it strong for regulated sectors that want a modern identity.',
     highlights: [
@@ -425,7 +453,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Elegant and fluid — beauty, fashion, and premium lifestyle',
     categories: ['beauty', 'fashion', 'lifestyle'],
-    style: ['strong'],
+    feel: ['strong', 'invented'],
+    fit: ['beauty', 'luxury', 'consumer'],
     description:
       'Three flowing syllables with a feminine elegance. Zanelva reads as a personal brand or product name — the -elva ending gives it a Scandinavian-Italian hybrid quality that feels both modern and timeless.',
     highlights: [
@@ -440,7 +469,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Certainty and authority — compliance, legal, and professional platforms',
     categories: ['legaltech', 'compliance', 'professional'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['professional', 'fintech', 'legal'],
     description:
       'Certo (certain in Italian) shaped into a professional platform name. Certono carries authority and confidence — ideal for a compliance tool, a legal services platform, or any B2B brand that needs to project reliability.',
     highlights: [
@@ -455,7 +485,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Art and clarity — creative agencies, design studios, and culture platforms',
     categories: ['design', 'culture', 'creative'],
-    style: ['neutral'],
+    feel: ['soft', 'invented'],
+    fit: ['creative', 'consumer', 'tech'],
     description:
       'Ciel (sky) + arte (art) — sky and art fused into a clean, memorable name. Strong for a creative agency, a design studio, or a cultural platform that wants to signal both artistic ambition and clear thinking.',
     highlights: [
@@ -470,7 +501,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Soft and elegant — personal care, beauty, and wellness',
     categories: ['beauty', 'wellness', 'personal care'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['beauty', 'wellness', 'consumer'],
     description:
       'Three soft syllables with a gentle elegance. Renzela reads as a personal care brand — the -ela ending gives it warmth and approachability while the Ren- opening keeps it modern and uncluttered.',
     highlights: [
@@ -485,7 +517,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Sharp and inventive — fintech, crypto, and modern financial platforms',
     categories: ['fintech', 'crypto', 'tech'],
-    style: ['strong'],
+    feel: ['strong', 'invented'],
+    fit: ['fintech', 'tech', 'saas'],
     description:
       'Three crisp syllables with a sharp opening. The Z- gives it energy and distinctiveness — strong for a fintech platform, a crypto product, or any financial service brand that wants to signal speed and innovation.',
     highlights: [
@@ -503,7 +536,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian craft resonance — fashion, accessories, and premium lifestyle',
     categories: ['fashion', 'luxury', 'lifestyle'],
-    style: ['italianate', 'strong', 'tech'],
+    feel: ['italianate', 'strong'],
+    fit: ['luxury', 'beauty', 'consumer'],
     description:
       'Three syllables with Vicenza at the root — the Italian city synonymous with jewellery and precision craft. Kivenza carries that heritage without being derivative, making it strong for premium accessories, fashion, or artisan consumer brands.',
     highlights: [
@@ -518,7 +552,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Venice distilled — travel, luxury, and cultural brands',
     categories: ['travel', 'luxury', 'culture'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['luxury', 'hospitality', 'consumer'],
     description:
       'Venezia softened into a modern brandable name. The -ezia ending carries centuries of Venetian luxury without the genericness of "Venice" — ideal for a travel brand, a luxury hospitality concept, or a premium lifestyle platform with European character.',
     highlights: [
@@ -533,7 +568,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian warmth and elegance — consumer, wellness, and lifestyle brands',
     categories: ['consumer', 'wellness', 'lifestyle'],
-    style: ['italianate', 'strong'],
+    feel: ['italianate', 'strong'],
+    fit: ['wellness', 'consumer', 'beauty'],
     description:
       'Bene (good, well in Italian) shaped into a premium brand name with the double-z that gives Italian words their typographic distinctiveness. Benezza reads as warm, refined, and approachable — strong for wellness, personal care, or a premium consumer brand.',
     highlights: [
@@ -548,7 +584,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian diminutive — fashion, textiles, and premium personal style',
     categories: ['fashion', 'textiles', 'lifestyle'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['luxury', 'beauty', 'consumer'],
     description:
       'The -ino diminutive is one of the most elegant patterns in Italian naming — think Valentino, Lamborghini. Lenzino carries that lineage with a clean modern structure, making it strong for a fashion brand, a textile company, or a premium personal style platform.',
     highlights: [
@@ -563,7 +600,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Airy precision — tech, aerospace, and premium professional services',
     categories: ['tech', 'aerospace', 'professional'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['tech', 'professional', 'saas'],
     description:
       'Aer (air, sky) meets the -enza Italian ending that implies essence and quality. Aerenza reads as elevated and precise — strong for a technology platform, an aerospace brand, or any professional service that wants to signal clarity and altitude.',
     highlights: [
@@ -578,7 +616,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Crown refined — luxury goods, premium consumer, and fashion',
     categories: ['luxury', 'consumer', 'fashion'],
-    style: ['luxury'],
+    feel: ['elegant', 'soft'],
+    fit: ['luxury', 'consumer', 'beauty'],
     description:
       'Corona (crown) compressed and refined into a modern brand name. Crofina carries regal connotation without the overuse of "crown" brands — the -fina ending adds a quality signal that reads as considered rather than constructed.',
     highlights: [
@@ -593,7 +632,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Lush and luxurious — beauty, wellness, and premium lifestyle',
     categories: ['beauty', 'wellness', 'lifestyle'],
-    style: ['luxury', 'soft'],
+    feel: ['elegant', 'soft'],
+    fit: ['beauty', 'luxury', 'consumer'],
     description:
       'Lush meets luxury in a name that feels both abundant and refined. Lushory occupies a precise space — not austere like high fashion, not casual like a wellness app — making it ideal for premium beauty, indulgent personal care, or an elevated lifestyle brand.',
     highlights: [
@@ -608,7 +648,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Lunar and luminous — wellness, beauty, and night-care brands',
     categories: ['wellness', 'beauty', 'consumer'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['beauty', 'wellness', 'consumer'],
     description:
       'Luna with a strong double-r ending that gives it presence. Lunorra reads as celestial and feminine without being soft — strong for a night-care beauty brand, a wellness platform, or any consumer brand that wants to evoke the quiet authority of moonlight.',
     highlights: [
@@ -623,7 +664,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Solar warmth — energy, wellness, and lifestyle brands',
     categories: ['energy', 'wellness', 'lifestyle'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['wellness', 'consumer', 'tech'],
     description:
       'Sol (sun) shaped into a three-syllable name with a warm feminine register. Solerya reads as bright and purposeful — strong for a clean energy brand, a wellness platform, or a lifestyle company built around natural vitality and warmth.',
     highlights: [
@@ -638,7 +680,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Graceful and swift — fashion, sports, and premium lifestyle',
     categories: ['fashion', 'sports', 'lifestyle'],
-    style: ['italianate'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['consumer', 'beauty', 'wellness'],
     description:
       'Gazelle at its root, shaped into an elegant brand name. Gazelia carries the grace and speed of the animal without being a dictionary word — strong for a fashion brand with athletic sensibility, a sportswear line, or a premium lifestyle platform.',
     highlights: [
@@ -653,7 +696,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Strategic intelligence — consulting, B2B, and data platforms',
     categories: ['consulting', 'saas', 'b2b'],
-    style: ['strong'],
+    feel: ['strong', 'invented'],
+    fit: ['professional', 'saas', 'tech'],
     description:
       'Didactic meets tactical in a name that projects strategic intelligence. Dactica reads as a firm that knows what it is doing — strong for a management consultancy, a B2B data platform, or any professional service built around structured thinking and measurable outcomes.',
     highlights: [
@@ -668,7 +712,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Sovereign authority — fintech, legal, and premium professional services',
     categories: ['fintech', 'legaltech', 'professional'],
-    style: ['soft', 'strong'],
+    feel: ['strong', 'elegant'],
+    fit: ['fintech', 'professional', 'legal'],
     description:
       'Sovrano (sovereign in Italian) shaped into a contemporary platform name. Sovreno projects authority and confidence without being stiff — ideal for a financial platform, a legal services brand, or any B2B company that needs to signal it operates at the highest level.',
     highlights: [
@@ -683,7 +728,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Liberty and momentum — fintech, legal, and professional platforms',
     categories: ['fintech', 'legaltech', 'saas'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['fintech', 'legal', 'saas'],
     description:
       'Liber (free, book in Latin) meets a forward-moving suffix. Liberva reads as a platform that removes friction — strong for a fintech service, a legal technology company, or any professional platform built around freedom from complexity.',
     highlights: [
@@ -698,7 +744,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Latin gravitas — law, investment, and high-trust professional services',
     categories: ['legal', 'investment', 'professional'],
-    style: ['soft'],
+    feel: ['elegant', 'invented'],
+    fit: ['professional', 'legal', 'fintech'],
     description:
       'The -orum Latin ending signals forum, authority, and collective expertise — think Factorum, Memorandum. Invorum carries that weight as a brand name while reading as modern and distinctive, making it strong for investment, legal, or advisory services.',
     highlights: [
@@ -713,7 +760,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Financial axis — fintech, banking, and financial infrastructure',
     categories: ['fintech', 'banking', 'b2b'],
-    style: ['strong', 'tech'],
+    feel: ['strong', 'invented'],
+    fit: ['fintech', 'tech', 'saas'],
     description:
       'Finance meets axis in a three-syllable name that reads as infrastructure. Finaxus projects the sense of a platform that financial systems are built around — strong for a B2B fintech, a payments infrastructure company, or a banking technology provider.',
     highlights: [
@@ -728,7 +776,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Vault precision — fintech, security, and enterprise software',
     categories: ['fintech', 'security', 'enterprise'],
-    style: ['short', 'strong', 'tech'],
+    feel: ['short', 'minimal', 'strong'],
+    fit: ['fintech', 'tech', 'saas'],
     description:
       'Vault compressed into a sharp two-syllable tech name. Vautix reads as secure, precise, and institutional — strong for a cybersecurity platform, a financial custody service, or any enterprise software company that needs to signal protection and reliability.',
     highlights: [
@@ -743,7 +792,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Health and precision — healthtech, diagnostics, and clinical platforms',
     categories: ['healthtech', 'diagnostics', 'saas'],
-    style: ['tech'],
+    feel: ['invented', 'minimal'],
+    fit: ['tech', 'saas', 'wellness'],
     description:
       'Hydra + -exa, or simply a sharp clinical-sounding name that carries health authority. Hydexa reads as precise and scientific without being cold — strong for a healthtech platform, a diagnostics company, or a clinical data management service.',
     highlights: [
@@ -758,7 +808,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Calendar intelligence — scheduling, productivity, and SaaS platforms',
     categories: ['saas', 'productivity', 'b2b'],
-    style: ['strong', 'tech'],
+    feel: ['elegant', 'soft'],
+    fit: ['saas', 'tech', 'professional'],
     description:
       'Calendae (the Latin origin of "calendar") shaped into a modern SaaS name. Kalendi reads as scheduling-adjacent without being generic — strong for a productivity platform, a scheduling service, or any SaaS tool built around time and coordination.',
     highlights: [
@@ -773,7 +824,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Elemental precision — biotech, pharma, and premium technology',
     categories: ['biotech', 'pharma', 'tech'],
-    style: ['tech'],
+    feel: ['invented', 'strong'],
+    fit: ['tech', 'saas', 'wellness'],
     description:
       'The -ium ending signals an element, a compound, a discovery. Frecium carries the authority of a named substance — strong for a biotech company, a pharmaceutical brand, or any technology platform that wants to signal it is foundational rather than derivative.',
     highlights: [
@@ -788,7 +840,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian arena — events, sports, and premium entertainment',
     categories: ['events', 'sports', 'entertainment'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['creative', 'consumer', 'hospitality'],
     description:
       'Arena in its Italian form, shaped into a premium brand name. Arenzia carries the energy of performance and competition without the genericness of "arena" — strong for a live events platform, a sports brand, or an entertainment company with a premium positioning.',
     highlights: [
@@ -803,7 +856,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Vibrant and versatile — consumer brands with expressive identity',
     categories: ['consumer', 'lifestyle', 'tech'],
-    style: ['italianate', 'strong'],
+    feel: ['italianate', 'strong'],
+    fit: ['consumer', 'tech', 'creative'],
     description:
       'Three expressive syllables with a Mediterranean warmth. Zoralio reads as contemporary and energetic — a name that moves with the brand rather than constraining it. Strong for a direct-to-consumer brand, a tech platform, or a lifestyle company that leads with personality.',
     highlights: [
@@ -818,7 +872,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian elegance — premium food, wine, and hospitality',
     categories: ['food', 'wine', 'hospitality'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['hospitality', 'luxury', 'consumer'],
     description:
       'Three Italian syllables with a robust character — the -aro ending evokes Italian craft and specificity. Lonzaro reads as authentic and grounded, making it strong for a premium food brand, a wine label, or a hospitality concept with Mediterranean character.',
     highlights: [
@@ -833,7 +888,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Mind and calm — mental health, meditation, and wellness platforms',
     categories: ['mentalhealth', 'wellness', 'healthtech'],
-    style: ['italianate', 'short'],
+    feel: ['short', 'italianate', 'soft'],
+    fit: ['wellness', 'tech', 'consumer'],
     description:
       'Psy (mind, psyche) shaped into a calm, approachable brand name. Psylia reads as thoughtful and grounded — strong for a mental health app, a meditation platform, or a wellness service that sits at the intersection of psychology and everyday practice.',
     highlights: [
@@ -848,7 +904,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Life and luxury — premium lifestyle, travel, and consumer brands',
     categories: ['luxury', 'lifestyle', 'travel'],
-    style: ['luxury', 'strong', 'tech'],
+    feel: ['elegant', 'strong'],
+    fit: ['luxury', 'consumer', 'tech'],
     description:
       'Vita (life) meets luxury in a three-syllable name that reads as aspirational without being exclusionary. Viluxia projects premium lifestyle positioning — strong for a luxury travel brand, a premium consumer platform, or a lifestyle company with global ambitions.',
     highlights: [
@@ -863,7 +920,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian flow — premium consumer, design, and lifestyle brands',
     categories: ['consumer', 'design', 'lifestyle'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'soft', 'elegant'],
+    fit: ['consumer', 'creative', 'luxury'],
     description:
       'Three Italian-inflected syllables with a smooth phonetic arc. Avolza reads as premium and considered — not tied to any specific sector, which makes it highly versatile for a product brand, a design studio, or a lifestyle platform that wants to grow across categories.',
     highlights: [
@@ -878,7 +936,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Crisp and decisive — tech, B2B, and modern consumer brands',
     categories: ['tech', 'b2b', 'consumer'],
-    style: ['italianate', 'short', 'strong'],
+    feel: ['short', 'minimal', 'strong'],
+    fit: ['tech', 'fintech', 'saas'],
     description:
       'Two sharp syllables with no excess. Drenze reads as a company that acts with precision — strong for a tech startup, a B2B platform, or a consumer brand that leads with confidence. The -enze ending gives it European character without being fragile.',
     highlights: [
@@ -893,7 +952,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Minimal and sharp — tech, design, and modern professional services',
     categories: ['tech', 'design', 'professional'],
-    style: ['short', 'soft', 'tech'],
+    feel: ['short', 'minimal', 'invented'],
+    fit: ['tech', 'saas', 'creative'],
     description:
       'Two syllables, four letters in the root. Leryx reads as a tech or design company that values restraint — not trying to explain itself through its name, letting the brand do the work. Strong for a software company, a design studio, or a professional service with a modern identity.',
     highlights: [
@@ -908,7 +968,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Evoke and create — creative agencies, media, and brand studios',
     categories: ['creative', 'media', 'branding'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['creative', 'consumer', 'tech'],
     description:
       'Evoke compressed into a modern brand name. Evokra reads as a company that creates emotional response — strong for a creative agency, a brand studio, a media platform, or any company whose product is the experience it produces in its audience.',
     highlights: [
@@ -923,7 +984,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Zen and luminous — wellness platforms, mindfulness, and premium health',
     categories: ['wellness', 'mindfulness', 'healthtech'],
-    style: ['strong'],
+    feel: ['strong', 'invented'],
+    fit: ['wellness', 'tech', 'saas'],
     description:
       'Zen meets luvo (light in several languages) — a compound that reads as invented rather than assembled. Zenluvo projects calm and clarity — strong for a premium wellness platform, a mindfulness app, or a health brand built around sustainable wellbeing.',
     highlights: [
@@ -938,7 +1000,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Momentum and direction — SaaS, logistics, and growth platforms',
     categories: ['saas', 'logistics', 'b2b'],
-    style: ['strong'],
+    feel: ['strong', 'elegant'],
+    fit: ['saas', 'tech', 'fintech'],
     description:
       'Tend meets nova — forward motion and renewal in a three-syllable name. Tendova reads as a platform built for growth — strong for a SaaS company, a logistics platform, or a B2B service that helps organisations move in the right direction.',
     highlights: [
@@ -953,7 +1016,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Light and vision — photography, media, and creative technology',
     categories: ['photography', 'media', 'tech'],
-    style: ['luxury', 'soft'],
+    feel: ['elegant', 'soft'],
+    fit: ['creative', 'beauty', 'tech'],
     description:
       'Lumen (light) meets -reo, a suffix that gives it a contemporary media feel. Lumireo reads as a platform built around visual experience — strong for a photography brand, a creative technology company, or a media platform where light and vision are central.',
     highlights: [
@@ -968,7 +1032,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Airy and precise — premium tech, design, and lifestyle platforms',
     categories: ['tech', 'design', 'lifestyle'],
-    style: ['soft'],
+    feel: ['elegant', 'soft'],
+    fit: ['luxury', 'tech', 'saas'],
     description:
       'Aer (air) shaped into a four-syllable name with an elegant feminine register. Aerisia reads as elevated and considered — strong for a premium software platform, a design-forward consumer brand, or a lifestyle company that values both lightness and precision.',
     highlights: [
@@ -983,7 +1048,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Lyrical and distinctive — music, culture, and premium creative brands',
     categories: ['music', 'culture', 'creative'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['creative', 'consumer', 'wellness'],
     description:
       'Syrinx (the reed flute of Greek mythology) meets a contemporary naming structure. Syrelia reads as musical and culturally rich — strong for a music platform, a creative agency, or a cultural brand that wants to project both artistry and modern relevance.',
     highlights: [
@@ -998,7 +1064,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Digital diligence — fintech, compliance, and professional platforms',
     categories: ['fintech', 'compliance', 'b2b'],
-    style: ['italianate', 'strong'],
+    feel: ['italianate', 'strong'],
+    fit: ['fintech', 'professional', 'legal'],
     description:
       'Digital meets diligence in the Italian -enza form. Digenza reads as a platform built on rigour and reliability — strong for a compliance tool, a due diligence service, or any B2B platform where trust and thoroughness are the core value proposition.',
     highlights: [
@@ -1013,7 +1080,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Clarity and brilliance — analytics, intelligence, and data platforms',
     categories: ['analytics', 'saas', 'b2b'],
-    style: ['soft', 'tech'],
+    feel: ['invented', 'strong'],
+    fit: ['tech', 'saas', 'fintech'],
     description:
       'Eclat (brilliance in French) meets clarity in a sharp three-syllable name. Eclarix reads as a platform that makes things clear and visible — strong for an analytics tool, an intelligence platform, or any data service where insight is the product.',
     highlights: [
@@ -1028,7 +1096,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Light and warmth — wellness, consumer, and lifestyle brands',
     categories: ['wellness', 'consumer', 'lifestyle'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['wellness', 'consumer', 'beauty'],
     description:
       'Luz (light in Portuguese and Spanish) shaped into a warm three-syllable name. Luzamo carries the warmth of natural light without being geographically specific — strong for a wellness brand, a premium consumer product, or a lifestyle platform with a Latin American or global audience.',
     highlights: [
@@ -1043,7 +1112,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Voice and presence — audio tech, podcasting, and communication platforms',
     categories: ['audio', 'tech', 'communication'],
-    style: ['short', 'tech'],
+    feel: ['short', 'invented'],
+    fit: ['tech', 'creative', 'saas'],
     description:
       'Voix (voice in French) meets -seo, giving it a tech-forward feel. Voiseo reads as a platform built around voice and audio — strong for a podcasting service, a voice AI product, or a communication platform where sound is the primary medium.',
     highlights: [
@@ -1058,7 +1128,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Flowing and grounded — fintech, wellness, and tech platforms',
     categories: ['fintech', 'wellness', 'tech'],
-    style: ['short', 'soft'],
+    feel: ['short', 'minimal', 'soft'],
+    fit: ['fintech', 'wellness', 'tech'],
     description:
       'River meets zen in a two-syllable name that balances movement and stillness. Rivzen reads as a platform in flow — strong for a fintech service, a wellness platform, or a tech product that values calm user experience alongside rapid performance.',
     highlights: [
@@ -1073,7 +1144,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Narrative and creative — media, content, and storytelling platforms',
     categories: ['media', 'content', 'creative'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['creative', 'consumer', 'saas'],
     description:
       'Narrative compressed into a modern brand name. Nartiva reads as a company built around story and content — strong for a media platform, a content creation tool, a publishing brand, or any company whose product is narrative and communication.',
     highlights: [
@@ -1088,7 +1160,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Structured and precise — architecture, design, and enterprise platforms',
     categories: ['architecture', 'design', 'enterprise'],
-    style: ['strong', 'tech'],
+    feel: ['strong', 'invented'],
+    fit: ['tech', 'saas', 'professional'],
     description:
       'Cladding meets -ora, a name that reads as structural and considered. Kladora projects the sense of a well-built platform — strong for an architecture firm, a design tool, or an enterprise software company where structure and precision are the core values.',
     highlights: [
@@ -1103,7 +1176,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Bold and versatile — tech platforms, B2B, and modern consumer brands',
     categories: ['tech', 'b2b', 'consumer'],
-    style: ['strong'],
+    feel: ['strong', 'invented'],
+    fit: ['tech', 'consumer', 'saas'],
     description:
       'Three assertive syllables with a Z opening that commands attention. Zontega reads as a platform with presence — the -ega ending gives it Mediterranean character while the Z opening signals energy and distinction. Strong across tech, B2B, and premium consumer.',
     highlights: [
@@ -1118,7 +1192,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Elegant and warm — personal care, beauty, and wellness brands',
     categories: ['beauty', 'personalcare', 'wellness'],
-    style: ['strong'],
+    feel: ['elegant', 'strong'],
+    fit: ['beauty', 'wellness', 'consumer'],
     description:
       'Three flowing syllables with a warm feminine character. Zemyra reads as personal and considered — the kind of name a founder chooses when they want the brand to feel like a relationship, not a transaction. Strong for premium personal care, beauty, or a wellness brand with an intimate voice.',
     highlights: [
@@ -1133,7 +1208,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian lightness — consumer, media, and lifestyle brands',
     categories: ['consumer', 'media', 'lifestyle'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'soft'],
+    fit: ['consumer', 'creative', 'hospitality'],
     description:
       'Gavia (seagull in Italian and Latin) shaped into a contemporary brand name. Gavieo carries the freedom and lightness of flight without being an aviation brand — strong for a media platform, a consumer lifestyle brand, or any company that values both grace and forward movement.',
     highlights: [
@@ -1148,7 +1224,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Cross-cultural premium — beauty, wellness, and lifestyle brands',
     categories: ['beauty', 'wellness', 'lifestyle'],
-    style: ['strong', 'tech'],
+    feel: ['elegant', 'strong'],
+    fit: ['beauty', 'wellness', 'luxury'],
     description:
       'Kai (sea, ocean in various Asian and Pacific languages) meets -sana (health in multiple languages). Kaisana reads as a globally minded premium brand — strong for a beauty or wellness brand that bridges Asian and Western aesthetics, or any consumer brand with cross-cultural ambitions.',
     highlights: [
@@ -1163,7 +1240,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Energy and flow — tech, consumer, and growth platforms',
     categories: ['tech', 'consumer', 'b2b'],
-    style: ['short', 'strong'],
+    feel: ['short', 'strong'],
+    fit: ['tech', 'consumer', 'fintech'],
     description:
       'Surge meets -geo, a name that reads as kinetic and directional. Turgeo projects the sense of upward movement — strong for a growth-stage tech company, a consumer platform built on momentum, or a B2B service that helps organisations accelerate.',
     highlights: [
@@ -1178,7 +1256,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Clarity and brevity — legal, compliance, and professional services',
     categories: ['legal', 'compliance', 'professional'],
-    style: ['italianate', 'short', 'strong'],
+    feel: ['italianate', 'short', 'strong'],
+    fit: ['legal', 'professional', 'fintech'],
     description:
       'Brevis (brief, concise in Latin) shaped into an elegant platform name. Breavia reads as a company that values precision and economy — strong for a legal services platform, a compliance tool, or a professional service built around clear, efficient communication.',
     highlights: [
@@ -1193,7 +1272,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Connection and beyond — B2B platforms, networks, and enterprise tools',
     categories: ['b2b', 'enterprise', 'tech'],
-    style: ['soft', 'tech'],
+    feel: ['invented', 'strong'],
+    fit: ['tech', 'saas', 'professional'],
     description:
       'Nexus (connection, link) meets ultra in a three-syllable tech name. Nexutra reads as a platform that goes beyond simple connection — strong for an enterprise networking tool, a B2B data platform, or any technology company where interconnection is the core value.',
     highlights: [
@@ -1208,7 +1288,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Vivid and sharp — tech, media, and premium consumer brands',
     categories: ['tech', 'media', 'consumer'],
-    style: ['strong'],
+    feel: ['strong', 'elegant'],
+    fit: ['tech', 'consumer', 'creative'],
     description:
       'Three crisp syllables with a V opening that projects energy and decisiveness. Vyreno reads as a brand with strong visual identity — strong for a media platform, a consumer tech brand, or any company that wants to communicate vibrancy and forward momentum.',
     highlights: [
@@ -1223,7 +1304,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Invention and discovery — deeptech, R&D, and innovation platforms',
     categories: ['deeptech', 'research', 'innovation'],
-    style: ['soft'],
+    feel: ['invented', 'soft'],
+    fit: ['tech', 'saas', 'professional'],
     description:
       'Invent meets a crisp -xa ending, creating a name that reads as discovery-driven. Invenxa projects the energy of a company that exists to create what does not yet exist — strong for a deep tech startup, a corporate R&D platform, or an innovation consulting firm.',
     highlights: [
@@ -1241,7 +1323,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Rare and evocative — beauty, wellness, and premium lifestyle brands',
     categories: ['beauty', 'wellness', 'lifestyle'],
-    style: ['short', 'strong', 'tech'],
+    feel: ['short', 'minimal', 'invented'],
+    fit: ['beauty', 'luxury', 'wellness'],
     description: 'Two syllables with a rare Q opening that makes it instantly distinctive. Qirah carries Middle Eastern elegance — strong for a premium beauty brand, a luxury skincare line, or a wellness platform that wants to stand apart from the expected.',
     highlights: ['Rare Q opening — high visual and phonetic distinction', 'Exotic elegance without geographic specificity', 'Strong premium beauty and wellness positioning'],
   },
@@ -1251,7 +1334,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Epic and precise — tech platforms, gaming, and digital experiences',
     categories: ['tech', 'gaming', 'saas'],
-    style: ['soft', 'tech'],
+    feel: ['invented', 'strong'],
+    fit: ['tech', 'saas', 'creative'],
     description: 'Epi (upon, above) meets -xor, a suffix that reads as distinctly digital. Epixor projects scale and technical precision — strong for a tech platform, a gaming company, or a digital experience brand that wants to signal both ambition and capability.',
     highlights: ['Epic scale with technical precision', 'Strong tech and digital experience positioning', 'Works for both B2B platforms and consumer products'],
   },
@@ -1261,7 +1345,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Ivory elegance — luxury goods, premium consumer, and fashion brands',
     categories: ['luxury', 'fashion', 'consumer'],
-    style: ['luxury', 'strong', 'tech'],
+    feel: ['invented', 'strong'],
+    fit: ['luxury', 'beauty', 'consumer'],
     description: 'Ivory reimagined with a rare Q opening. Qivory carries the purity and value of the material without the ethical complications of the word itself — strong for a luxury brand, a premium fashion label, or a high-end consumer product.',
     highlights: ['Ivory luxury signal without the word itself', 'Rare Q opening creates immediate visual distinction', 'Strong premium consumer and fashion positioning'],
   },
@@ -1271,7 +1356,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Global and versatile — tech, consumer, and cross-market brands',
     categories: ['tech', 'consumer', 'global'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['tech', 'consumer', 'saas'],
     description: 'Three clean syllables with global phonetic appeal — accessible in European, African, and Asian markets without belonging to any one. Nimaba reads as a brand that was built to travel, making it strong for a global tech company or an international consumer platform.',
     highlights: ['Global phonetics — works across all major markets', 'Sector-neutral with strong buyer profile breadth', 'Three clean syllables with excellent cross-cultural recall'],
   },
@@ -1281,7 +1367,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Navigation and movement — travel, logistics, and mobility platforms',
     categories: ['travel', 'logistics', 'mobility'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['tech', 'consumer', 'saas'],
     description: 'Navette (shuttle) in Italian inflected form — movement made elegant. Naveti reads as a platform built for getting from A to B with precision and ease, strong for a travel brand, a logistics platform, or a mobility service that values both direction and design.',
     highlights: ['Navigation semantics without the generic word', 'Strong travel, logistics, and mobility positioning', 'Clean Italian form — credible across European markets'],
   },
@@ -1291,7 +1378,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Latin authority — law, investment, and premium professional services',
     categories: ['legal', 'investment', 'professional'],
-    style: ['luxury', 'short'],
+    feel: ['short', 'minimal', 'elegant'],
+    fit: ['legal', 'professional', 'fintech'],
     description: 'Two syllables with the gravitas of classical Latin. Caeus reads as a firm of consequence — not a startup, but a practice with substance and history. Strong for a legal brand, an investment company, or any professional service where authority is the primary signal.',
     highlights: ['Classical Latin gravitas in two syllables', 'Premium professional and investment positioning', 'Timeless register — not tied to any decade or trend'],
   },
@@ -1301,7 +1389,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Visionary and forward — tech, AI, and innovation platforms',
     categories: ['tech', 'ai', 'innovation'],
-    style: ['short', 'soft'],
+    feel: ['short', 'soft', 'elegant'],
+    fit: ['tech', 'saas', 'creative'],
     description: 'Alm (from alma, soul, or almond) meets -eon, a suffix that reads as futuristic and expansive. Almeon projects a platform thinking at scale — strong for an AI company, an innovation platform, or a technology brand at the frontier of what is possible.',
     highlights: ['Futuristic -eon suffix signals scale and vision', 'Strong AI and innovation platform positioning', 'Works equally for B2B platforms and consumer tech'],
   },
@@ -1311,7 +1400,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Synthetic and sharp — biotech, pharma, and innovation platforms',
     categories: ['biotech', 'pharma', 'innovation'],
-    style: ['strong'],
+    feel: ['strong', 'invented'],
+    fit: ['tech', 'saas', 'wellness'],
     description: 'Syn (together, synthetic) meets -taro, creating a name that reads as scientific and intentional. Zyntaro projects precision innovation — strong for a biotech company, a synthetic biology platform, or any technology brand built around the deliberate combination of elements.',
     highlights: ['Synthetic precision without the word "synthetic"', 'Strong biotech and pharmaceutical sector positioning', 'Three syllables with scientific authority'],
   },
@@ -1321,7 +1411,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Vector precision — data, analytics, and enterprise technology',
     categories: ['data', 'analytics', 'enterprise'],
-    style: ['short', 'strong'],
+    feel: ['short', 'minimal', 'strong'],
+    fit: ['tech', 'saas', 'fintech'],
     description: 'Vector compressed into a sharp tech name. Vektri reads as a platform built on direction and magnitude — strong for a data analytics company, an enterprise software provider, or any technology brand where precision and directionality are core values.',
     highlights: ['Vector precision without the generic word', 'Strong data and enterprise technology positioning', 'Two syllables — high recall in technical contexts'],
   },
@@ -1331,7 +1422,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Elegant and fluid — beauty, wellness, and premium personal care',
     categories: ['beauty', 'wellness', 'personalcare'],
-    style: ['soft'],
+    feel: ['elegant', 'soft'],
+    fit: ['beauty', 'wellness', 'consumer'],
     description: 'Three flowing syllables with a gentle, considered quality. Lizenta reads as a brand that pays attention — to ingredient, to texture, to experience. Strong for a premium beauty line, a personal care brand, or a wellness platform with a refined voice.',
     highlights: ['Gentle elegance with premium personal care positioning', 'Flows naturally in packaging and spoken contexts', 'Works across beauty, wellness, and lifestyle categories'],
   },
@@ -1341,7 +1433,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Art and intensity — creative studios, design, and cultural platforms',
     categories: ['creative', 'design', 'culture'],
-    style: ['soft'],
+    feel: ['elegant', 'soft'],
+    fit: ['creative', 'consumer', 'tech'],
     description: 'Arte (art) meets -ensa, a suffix that implies concentration and focus. Artensa reads as a studio of conviction — strong for a creative agency, a design brand, or a cultural platform where artistic intention is the defining quality.',
     highlights: ['Art and intensity fused in three syllables', 'Strong creative, design, and cultural positioning', 'Works for both B2B studios and consumer creative platforms'],
   },
@@ -1351,7 +1444,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Elemental authority — biotech, materials science, and deep technology',
     categories: ['biotech', 'materials', 'deeptech'],
-    style: ['soft'],
+    feel: ['invented', 'elegant'],
+    fit: ['tech', 'wellness', 'saas'],
     description: 'The -ium ending signals a discovered element, a compound of consequence. Onilium carries the authority of a named substance — strong for a materials science company, a biotech brand, or a deep technology platform that positions itself as foundational.',
     highlights: ['Chemical -ium ending signals elemental discovery', 'Strong biotech and materials science positioning', 'Premium tech register that implies foundational importance'],
   },
@@ -1361,7 +1455,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Data and direction — analytics, intelligence, and B2B platforms',
     categories: ['analytics', 'intelligence', 'b2b'],
-    style: ['soft', 'tech'],
+    feel: ['invented', 'strong'],
+    fit: ['tech', 'saas', 'fintech'],
     description: 'Redact meets axis — the idea of cutting through data to find direction. Redaxia reads as a platform that makes sense of complexity, strong for an analytics company, a business intelligence tool, or any data platform where insight and clarity are the product.',
     highlights: ['Data and directional intelligence in a single name', 'Strong analytics and B2B platform positioning', 'Credible across data, intelligence, and enterprise sectors'],
   },
@@ -1371,7 +1466,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Clean and minimal — SaaS, design tools, and modern tech platforms',
     categories: ['saas', 'design', 'tech'],
-    style: ['italianate', 'short', 'soft'],
+    feel: ['italianate', 'short', 'minimal'],
+    fit: ['saas', 'tech', 'creative'],
     description: 'Two syllables, five letters. Etlio reads as a product that values restraint — nothing unnecessary, nothing missing. Strong for a SaaS platform, a design tool, or any technology company that wants to signal efficiency and intentional simplicity.',
     highlights: ['Two syllables — among the rarest and most valuable structures', 'Minimal register signals restraint and efficiency', 'Works across SaaS, design, and modern consumer tech'],
   },
@@ -1381,7 +1477,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Bold and premium — fintech, investment, and B2B platforms',
     categories: ['fintech', 'investment', 'b2b'],
-    style: ['italianate', 'short', 'strong'],
+    feel: ['italianate', 'short', 'strong'],
+    fit: ['fintech', 'professional', 'saas'],
     description: 'Three assertive syllables with a Z opening that projects confidence. Zarmio reads as a platform with presence and conviction — strong for a fintech company, an investment platform, or a B2B service that needs to communicate authority from the first encounter.',
     highlights: ['Z opening projects confidence and memorability', 'Strong fintech and investment sector positioning', 'Three syllables with immediate enterprise recall'],
   },
@@ -1391,7 +1488,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Love and movement — media, streaming, and entertainment platforms',
     categories: ['media', 'streaming', 'entertainment'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'soft', 'elegant'],
+    fit: ['creative', 'consumer', 'tech'],
     description: 'Ame (love in several languages) meets -vio, suggesting movement and flow. Amevio reads as a platform built around emotional experience — strong for a media streaming service, an entertainment brand, or a consumer platform where feeling is the product.',
     highlights: ['Love and movement fused in a modern media name', 'Strong streaming and entertainment positioning', 'Works across consumer media and entertainment sectors'],
   },
@@ -1401,7 +1499,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Promise and abundance — fintech, legal, and premium service platforms',
     categories: ['fintech', 'legal', 'professional'],
-    style: ['italianate', 'luxury'],
+    feel: ['italianate', 'elegant'],
+    fit: ['fintech', 'legal', 'professional'],
     description: 'Pledge meets -dora (gift, abundance in various languages) — a name that reads as both commitment and generosity. Pledora is strong for a fintech platform built around commitment, a legal services brand, or any professional service where the promise to the client is the product.',
     highlights: ['Pledge + abundance — trust and generosity in one name', 'Strong fintech and legal services positioning', 'Works for both B2B platforms and consumer-facing services'],
   },
@@ -1411,7 +1510,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian lightness — lifestyle, wellness, and premium consumer brands',
     categories: ['lifestyle', 'wellness', 'consumer'],
-    style: ['strong'],
+    feel: ['strong', 'invented'],
+    fit: ['consumer', 'wellness', 'hospitality'],
     description: 'Three Italian-inflected syllables with a light, cheerful quality. Vesoli reads as a brand that knows how to make life feel easier and more pleasurable — strong for a lifestyle platform, a wellness brand, or a premium consumer product with a warm, approachable voice.',
     highlights: ['Italian lightness and warmth in three syllables', 'Strong lifestyle and premium consumer positioning', 'Approachable premium register — not exclusionary'],
   },
@@ -1421,7 +1521,8 @@ export const domains = [
     tld: '.com',
     tagline: 'European discovery — fintech, innovation, and professional platforms',
     categories: ['fintech', 'innovation', 'professional'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['fintech', 'professional', 'tech'],
     description: 'Eureka meets -ezo, creating a name that reads as European, discovered, and precise. Eurezo is strong for a fintech platform with European ambitions, a professional services brand targeting the EU market, or an innovation company that wants to signal both discovery and continental credibility.',
     highlights: ['European discovery semantics without the word "Euro"', 'Strong fintech and professional services positioning', 'Credible in EU and global markets equally'],
   },
@@ -1431,7 +1532,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Fluid and versatile — tech, consumer, and premium lifestyle brands',
     categories: ['tech', 'consumer', 'lifestyle'],
-    style: ['strong'],
+    feel: ['elegant', 'strong'],
+    fit: ['consumer', 'tech', 'professional'],
     description: 'Three syllables with a flowing quality that adapts to almost any sector. Vorlisa reads as a platform that moves with elegance — strong for a tech company that wants a non-technical name, a premium consumer brand, or a lifestyle platform with global ambitions.',
     highlights: ['Fluid phonetics — adapts to multiple sector contexts', 'Sector-neutral with premium buyer profile breadth', 'Works equally for tech platforms and consumer brands'],
   },
@@ -1441,7 +1543,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Quorum and precision — enterprise software, compliance, and B2B platforms',
     categories: ['enterprise', 'compliance', 'b2b'],
-    style: ['short', 'strong', 'tech'],
+    feel: ['short', 'strong', 'invented'],
+    fit: ['professional', 'saas', 'legal'],
     description: 'Quorum meets -tix, a sharp tech ending that signals precision and capability. Quortix reads as an enterprise platform built for decisions at scale — strong for a governance tool, a compliance platform, or any B2B software company where collective intelligence is the core value.',
     highlights: ['Quorum semantics for enterprise decision-making', 'Sharp -tix ending signals tech precision', 'Strong enterprise and compliance sector positioning'],
   },
@@ -1451,7 +1554,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Light and glory — wellness, beauty, and premium lifestyle brands',
     categories: ['wellness', 'beauty', 'lifestyle'],
-    style: ['italianate', 'luxury', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['beauty', 'wellness', 'consumer'],
     description: 'En (in) meets loria (glory, radiance in Italian) — a name built around the idea of inner radiance. Enloria reads as a brand that helps its customers shine — strong for a wellness platform, a premium beauty line, or a lifestyle brand built around personal transformation.',
     highlights: ['Inner radiance and glory semantics', 'Strong wellness and beauty sector positioning', 'Premium lifestyle register without being exclusionary'],
   },
@@ -1461,7 +1565,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian warmth — food, hospitality, and premium lifestyle brands',
     categories: ['food', 'hospitality', 'lifestyle'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['hospitality', 'consumer', 'luxury'],
     description: 'The -ino diminutive with a warm, rounded opening. Loutino reads as artisan and approachable — the kind of name found above the door of a restaurant that is impossible to forget. Strong for a premium food brand, a hospitality concept, or an Italian-inspired lifestyle brand.',
     highlights: ['Italian -ino warmth and artisan quality', 'Strong food, hospitality, and lifestyle positioning', 'Memorable and immediately evocative in its sector'],
   },
@@ -1471,7 +1576,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Integration and excellence — enterprise software, B2B, and data platforms',
     categories: ['enterprise', 'b2b', 'data'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['saas', 'tech', 'professional'],
     description: 'Eu (good, well in Greek) meets tegra (integration) — a name that reads as excellent connection. Eutegra is strong for an enterprise integration platform, a B2B data connector, or any technology company whose value is in bringing systems and organisations together with precision.',
     highlights: ['Excellence + integration in a single name', 'Strong enterprise and B2B platform positioning', 'Greek eu prefix adds classical credibility'],
   },
@@ -1481,7 +1587,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian leadership — premium professional services and luxury brands',
     categories: ['professional', 'luxury', 'b2b'],
-    style: ['italianate', 'strong'],
+    feel: ['italianate', 'strong', 'elegant'],
+    fit: ['professional', 'luxury', 'fintech'],
     description: 'Duca (duke in Italian) shaped into a contemporary brand name. Ducario reads as a firm of standing — not ostentatious, but clearly operating at a level above the ordinary. Strong for a premium professional service, a luxury brand, or a B2B company that positions itself as the leading choice.',
     highlights: ['Italian ducal authority without being archaic', 'Premium professional and luxury positioning', 'Works for both B2B services and consumer luxury brands'],
   },
@@ -1491,7 +1598,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Soft and considered — wellness, personal care, and lifestyle brands',
     categories: ['wellness', 'personalcare', 'lifestyle'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['wellness', 'beauty', 'consumer'],
     description: 'Three soft syllables with a natural, considered quality. Laneti reads as a brand that takes its time — thoughtful in sourcing, gentle in delivery. Strong for a natural wellness brand, a personal care line, or a lifestyle platform with a slow, intentional voice.',
     highlights: ['Soft phonetics — naturally suited to personal care', 'Thoughtful and intentional brand register', 'Works across wellness, skincare, and lifestyle categories'],
   },
@@ -1501,7 +1609,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Solid and reliable — B2B platforms, logistics, and professional services',
     categories: ['b2b', 'logistics', 'professional'],
-    style: ['strong'],
+    feel: ['strong', 'elegant'],
+    fit: ['professional', 'fintech', 'saas'],
     description: 'Three grounded syllables that read as built to last. Condaro projects reliability and substance — strong for a B2B platform, a logistics company, or a professional service where the client needs to feel that the partnership is dependable and long-term.',
     highlights: ['Grounded phonetics signal reliability and substance', 'Strong B2B and logistics sector positioning', 'Scales from startup to established enterprise'],
   },
@@ -1511,7 +1620,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian waves — media, lifestyle, and creative consumer brands',
     categories: ['media', 'lifestyle', 'creative'],
-    style: ['soft'],
+    feel: ['italianate', 'soft'],
+    fit: ['consumer', 'hospitality', 'creative'],
     description: 'Onda (wave in Italian) shaped into a three-syllable contemporary name. Ondoni reads as a brand in flow — moving with its audience rather than ahead of it. Strong for a media platform, a creative consumer brand, or a lifestyle company with an Italian-inspired aesthetic.',
     highlights: ['Italian wave energy — movement and rhythm', 'Strong media and creative consumer positioning', 'Works equally for digital platforms and lifestyle brands'],
   },
@@ -1521,7 +1631,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Legal intelligence — legaltech, compliance, and professional platforms',
     categories: ['legaltech', 'compliance', 'professional'],
-    style: ['soft', 'tech'],
+    feel: ['invented', 'soft'],
+    fit: ['legal', 'fintech', 'professional'],
     description: 'Lex (law in Latin) meets -oza, creating a name that reads as both authoritative and contemporary. Lexoza is strong for a legal technology company, a compliance platform, or a professional services brand where legal intelligence is the core offering.',
     highlights: ['Latin lex authority in a modern platform name', 'Strong legaltech and compliance positioning', 'Professional register that works B2B and consumer-facing'],
   },
@@ -1531,7 +1642,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Connection and binding — B2B platforms, APIs, and integration tools',
     categories: ['b2b', 'api', 'integration'],
-    style: ['short', 'strong'],
+    feel: ['short', 'minimal', 'strong'],
+    fit: ['tech', 'saas', 'fintech'],
     description: 'Bind meets -ro in a two-syllable name that reads as both connection and momentum. Bindro is strong for an API platform, an integration tool, or any B2B service whose value is in connecting systems, teams, or organisations with speed and reliability.',
     highlights: ['Bind semantics for connection and integration', 'Two syllables — strong enterprise platform recall', 'Works across API, data, and B2B integration sectors'],
   },
@@ -1541,7 +1653,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian craft — food, hospitality, and premium artisan brands',
     categories: ['food', 'hospitality', 'artisan'],
-    style: ['italianate', 'strong'],
+    feel: ['italianate', 'strong'],
+    fit: ['hospitality', 'consumer', 'luxury'],
     description: 'Three Italian syllables with a craft register. Folanio reads as something made with attention and care — the name of an artisan who knows their trade. Strong for a premium food brand, a hospitality concept, or an artisan consumer product with Italian soul.',
     highlights: ['Italian artisan quality in three syllables', 'Strong food, hospitality, and premium craft positioning', 'Immediate sector credibility in European markets'],
   },
@@ -1551,7 +1664,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Monitor and precision — analytics, security, and enterprise platforms',
     categories: ['analytics', 'security', 'enterprise'],
-    style: ['short', 'soft', 'tech'],
+    feel: ['short', 'strong', 'invented'],
+    fit: ['tech', 'saas', 'fintech'],
     description: 'Monitor meets -xis, a suffix that reads as precision and observation. Monxis is strong for an analytics platform, a security monitoring company, or any enterprise tool where the value is in seeing what others miss and acting on it with accuracy.',
     highlights: ['Monitoring precision without using the word "monitor"', 'Strong analytics and security sector positioning', 'Sharp two-syllable structure with enterprise recall'],
   },
@@ -1561,7 +1675,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Warm and grounded — wellness, beauty, and natural consumer brands',
     categories: ['wellness', 'beauty', 'consumer'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['beauty', 'wellness', 'consumer'],
     description: 'Three warm syllables with a natural, grounded quality. Hanera reads as a brand rooted in something real — honest ingredients, genuine care, unhurried attention. Strong for a natural beauty brand, a wellness platform, or a consumer product built around authenticity.',
     highlights: ['Warm phonetics with natural and grounded register', 'Strong wellness, beauty, and natural consumer positioning', 'Honest and approachable — works across demographics'],
   },
@@ -1571,7 +1686,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian memory — culture, media, and premium lifestyle brands',
     categories: ['culture', 'media', 'lifestyle'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'soft', 'elegant'],
+    fit: ['creative', 'consumer', 'luxury'],
     description: 'Reminisce meets the Italian -nzo ending that appears in some of the most resonant European names. Reminzo reads as a brand with depth and a sense of place — strong for a cultural media platform, a premium lifestyle brand, or any company that wants to evoke something worth remembering.',
     highlights: ['Memory and Italian resonance in three syllables', 'Strong cultural media and lifestyle positioning', 'Premium register that implies depth and distinction'],
   },
@@ -1581,7 +1697,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Innovative and clean — SaaS, fintech, and modern tech platforms',
     categories: ['saas', 'fintech', 'tech'],
-    style: ['tech'],
+    feel: ['invented', 'soft'],
+    fit: ['saas', 'tech', 'fintech'],
     description: 'Three crisp syllables that read as modern and purposeful. Tinevo projects a platform built for today and tomorrow — not weighed down by history, not naive about complexity. Strong for a SaaS company, a fintech product, or a technology brand at the intersection of simplicity and capability.',
     highlights: ['Clean three-syllable structure with strong recall', 'Modern register — signals innovation without jargon', 'Works across SaaS, fintech, and consumer tech'],
   },
@@ -1591,7 +1708,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Gentle and alive — wellness, health, and personal care brands',
     categories: ['wellness', 'health', 'personalcare'],
-    style: ['luxury', 'soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['wellness', 'beauty', 'consumer'],
     description: 'Ame (love) meets -livo (alive, vibrant) — a name that reads as both caring and vital. Amelivo is strong for a wellness brand, a personal health platform, or a consumer care product where the relationship between brand and customer feels genuinely alive.',
     highlights: ['Love and vitality fused in a wellness name', 'Strong personal care and health sector positioning', 'Warm register that reduces clinical distance'],
   },
@@ -1601,7 +1719,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Nordic clarity — fintech, SaaS, and professional platforms',
     categories: ['fintech', 'saas', 'professional'],
-    style: ['italianate', 'short', 'strong', 'tech'],
+    feel: ['short', 'strong', 'invented'],
+    fit: ['fintech', 'saas', 'tech'],
     description: 'Klar (clear in Germanic languages) meets -mio, creating a name that reads as transparent, precise, and trustworthy. Klarmio is strong for a fintech platform, a SaaS product, or any professional service where clarity and transparency are the primary trust signals.',
     highlights: ['Nordic clarity semantics — transparent and trustworthy', 'Strong fintech and professional services positioning', 'Klar root resonates strongly in European markets'],
   },
@@ -1611,7 +1730,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Clarity and vision — analytics, intelligence, and insight platforms',
     categories: ['analytics', 'intelligence', 'saas'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['saas', 'tech', 'professional'],
     description: 'Clara (clear) meets -uvo, a suffix that gives it forward momentum. Claruvo reads as a platform that makes the complex visible — strong for an analytics tool, a business intelligence platform, or any service where clarity of insight is the core value delivered.',
     highlights: ['Clarity + momentum in a platform name', 'Strong analytics and intelligence sector positioning', 'Three syllables with clean visual identity'],
   },
@@ -1621,7 +1741,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Inexorable — enterprise software, legal, and high-stakes B2B services',
     categories: ['enterprise', 'legal', 'b2b'],
-    style: ['soft', 'tech'],
+    feel: ['invented', 'strong'],
+    fit: ['professional', 'legal', 'saas'],
     description: 'Inexorable compressed into a sharp three-syllable name. Inexum reads as a platform of consequence — things that happen through Inexum happen with certainty and precision. Strong for enterprise software, a legal services brand, or any high-stakes B2B service where reliability is non-negotiable.',
     highlights: ['Inexorable certainty in a sharp tech name', 'Strong enterprise and legal sector positioning', 'Projects non-negotiable reliability and precision'],
   },
@@ -1631,7 +1752,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Lyrical and Italian — music, culture, and premium creative brands',
     categories: ['music', 'culture', 'creative'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['creative', 'luxury', 'consumer'],
     description: 'Lirica (lyrical in Italian) shaped into an elegant three-syllable brand name. Lirenza reads as artistically elevated — strong for a music platform, a cultural brand, or a creative company that wants to position its work as something more than functional.',
     highlights: ['Italian lyrical register — artistic elevation', 'Strong music and cultural sector positioning', 'Works for both consumer platforms and professional creative brands'],
   },
@@ -1641,7 +1763,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Distinctive and premium — luxury, fashion, and lifestyle brands',
     categories: ['luxury', 'fashion', 'lifestyle'],
-    style: ['italianate', 'luxury', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['luxury', 'beauty', 'consumer'],
     description: 'Three syllables with a textured, distinctive quality. Ruviora reads as a brand that has developed its own character — not following a trend, but setting one. Strong for a luxury brand, a fashion label, or a lifestyle platform that wants to project genuine distinction.',
     highlights: ['Distinctive phonetic texture — immediately memorable', 'Strong luxury and fashion sector positioning', 'Projects character and distinction without trying too hard'],
   },
@@ -1651,7 +1774,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Renown and identity — professional platforms, B2B, and brand services',
     categories: ['professional', 'b2b', 'branding'],
-    style: ['soft'],
+    feel: ['soft', 'invented'],
+    fit: ['professional', 'saas', 'consumer'],
     description: 'Renown meets -omy, creating a name that reads as reputation made systematic. Renomy is strong for a professional services platform, a brand management tool, or a B2B service where reputation and identity are the core products.',
     highlights: ['Renown semantics — reputation and identity', 'Strong professional and B2B platform positioning', 'Works for brand services, professional tools, and consulting'],
   },
@@ -1661,7 +1785,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Blend and flow — food, wellness, and premium consumer brands',
     categories: ['food', 'wellness', 'consumer'],
-    style: ['italianate', 'short', 'strong'],
+    feel: ['italianate', 'short', 'strong'],
+    fit: ['consumer', 'wellness', 'beauty'],
     description: 'Blend meets -via, suggesting both mixture and pathway. Blenvia reads as a brand built around the idea of bringing things together well — strong for a food or beverage brand, a wellness platform, or any consumer product where combination and harmony are the value.',
     highlights: ['Blend and pathway semantics in a premium name', 'Strong food, wellness, and consumer positioning', 'Harmonious phonetics that mirror the brand concept'],
   },
@@ -1671,7 +1796,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Energy and movement — tech, SaaS, and modern consumer platforms',
     categories: ['tech', 'saas', 'consumer'],
-    style: ['strong'],
+    feel: ['strong', 'invented'],
+    fit: ['tech', 'saas', 'consumer'],
     description: 'Vortex meets -iko, a suffix that reads as contemporary and dynamic. Vortiko projects kinetic energy — strong for a tech platform, a SaaS product, or a consumer brand that leads with movement, momentum, and the sense that things are happening here.',
     highlights: ['Vortex energy without the dramatic weight of the word', 'Strong tech and SaaS platform positioning', 'Dynamic register that signals momentum and capability'],
   },
@@ -1681,7 +1807,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Reinvention and design — creative platforms, fashion, and brand studios',
     categories: ['creative', 'fashion', 'branding'],
-    style: ['short', 'soft'],
+    feel: ['short', 'invented', 'soft'],
+    fit: ['creative', 'consumer', 'tech'],
     description: 'Remix meets -yze, a suffix that suggests analysis and precision. Remyze reads as a brand built around creative reinvention with intention — strong for a creative studio, a fashion brand, or a platform where the work is about transforming what already exists into something better.',
     highlights: ['Remix + precision — creative reinvention with intent', 'Strong creative and fashion sector positioning', 'Works for B2B studios and consumer creative brands'],
   },
@@ -1691,7 +1818,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Vision and design — design agencies, creative tools, and visual platforms',
     categories: ['design', 'creative', 'tech'],
-    style: ['short', 'strong'],
+    feel: ['short', 'minimal', 'strong'],
+    fit: ['creative', 'tech', 'saas'],
     description: 'Vision meets design in a two-syllable name that reads as immediately purposeful. Vizign is strong for a design agency, a creative technology tool, or a visual platform where seeing and making are inseparable. The combined root makes it memorable without being literal.',
     highlights: ['Vision + design fused without sounding like a tagline', 'Strong design and creative technology positioning', 'Two syllables — immediate recognition in creative industries'],
   },
@@ -1701,7 +1829,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Love and evolution — wellness, consumer, and lifestyle platforms',
     categories: ['wellness', 'consumer', 'lifestyle'],
-    style: ['soft'],
+    feel: ['soft', 'elegant'],
+    fit: ['wellness', 'consumer', 'beauty'],
     description: 'Ama (love) meets -evo (evolution) — a name that reads as growth driven by care. Amaevo is strong for a wellness platform, a consumer brand built around personal growth, or a lifestyle company that wants to signal both warmth and forward movement.',
     highlights: ['Love and evolution fused in a modern brand name', 'Strong wellness and lifestyle sector positioning', 'Warm and progressive — works across demographics'],
   },
@@ -1711,7 +1840,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Velvet smoothness — luxury, fashion, and premium personal care',
     categories: ['luxury', 'fashion', 'personalcare'],
-    style: ['luxury', 'strong'],
+    feel: ['short', 'elegant', 'strong'],
+    fit: ['luxury', 'beauty', 'consumer'],
     description: 'Velvet compressed into a two-syllable name that retains the material quality. Veluze reads as smooth, premium, and tactile — strong for a luxury brand, a fashion label, or a personal care product where texture and quality of experience are the differentiator.',
     highlights: ['Velvet luxury without the word itself', 'Strong luxury and premium personal care positioning', 'Two syllables — rare and immediately premium'],
   },
@@ -1721,7 +1851,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Minimal and complete — SaaS, design, and modern tech platforms',
     categories: ['saas', 'design', 'tech'],
-    style: ['short', 'tech'],
+    feel: ['short', 'minimal', 'invented'],
+    fit: ['saas', 'tech', 'creative'],
     description: 'Two syllables, five letters. Plemo reads as a product that has removed everything that does not need to be there — strong for a SaaS tool, a design platform, or any technology product where simplicity and completeness are the same thing.',
     highlights: ['Minimal two-syllable structure — rare and iconic', 'Signals simplicity and completeness simultaneously', 'Works across SaaS, design tools, and consumer tech'],
   },
@@ -1731,7 +1862,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Italian heritage — culture, fashion, and premium lifestyle brands',
     categories: ['culture', 'fashion', 'lifestyle'],
-    style: ['soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['luxury', 'consumer', 'creative'],
     description: 'Lorenzo in its most distilled form — three syllables that carry the weight of Italian Renaissance heritage without the genericness of a proper name. Loreneo reads as cultural and considered, strong for a fashion brand, a cultural platform, or a premium lifestyle company with Italian roots.',
     highlights: ['Italian Renaissance resonance without a proper name', 'Strong culture, fashion, and lifestyle positioning', 'Premium register that feels earned rather than constructed'],
   },
@@ -1741,7 +1873,8 @@ export const domains = [
     tld: '.com',
     tagline: 'French elegance — fashion, beauty, and premium lifestyle brands',
     categories: ['fashion', 'beauty', 'lifestyle'],
-    style: ['italianate', 'soft'],
+    feel: ['italianate', 'elegant', 'soft'],
+    fit: ['luxury', 'beauty', 'consumer'],
     description: 'Avec (with in French) meets -lia, creating a name that reads as accompanied, complete, elevated. Aveclia projects French elegance without the cliché — strong for a fashion brand, a premium beauty label, or a lifestyle platform that draws from European refinement.',
     highlights: ['French avec elegance in a contemporary form', 'Strong fashion and premium beauty positioning', 'Works in both French and global luxury markets'],
   },
@@ -1751,7 +1884,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Botanical authority — natural beauty, wellness, and plant-based brands',
     categories: ['beauty', 'wellness', 'naturals'],
-    style: ['luxury', 'soft'],
+    feel: ['elegant', 'soft'],
+    fit: ['beauty', 'wellness', 'consumer'],
     description: 'Botanic meets -anum, a suffix that reads as both classical and scientific. Botanum projects botanical expertise — strong for a natural beauty brand, a plant-based wellness company, or any consumer product where the origin and integrity of ingredients is the primary trust signal.',
     highlights: ['Botanical authority without the word "botanic"', 'Strong natural beauty and plant-based positioning', 'Classical -anum suffix signals scientific rigour'],
   },
@@ -1761,7 +1895,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Fresh and forward — tech, SaaS, and modern consumer platforms',
     categories: ['tech', 'saas', 'consumer'],
-    style: ['short', 'strong'],
+    feel: ['short', 'strong'],
+    fit: ['tech', 'consumer', 'saas'],
     description: 'Three syllables that read as clean, fresh, and ready. Brealo projects a platform that is not carrying the weight of its past — strong for a tech startup, a modern SaaS product, or a consumer brand that leads with energy and contemporary sensibility.',
     highlights: ['Fresh and forward-facing brand register', 'Strong tech and SaaS platform positioning', 'Clean phonetics with natural consumer appeal'],
   },
@@ -1771,7 +1906,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Skin intelligence — dermatology, skincare, and healthtech platforms',
     categories: ['dermatology', 'skincare', 'healthtech'],
-    style: ['soft'],
+    feel: ['invented', 'soft'],
+    fit: ['beauty', 'wellness', 'tech'],
     description: 'Dermis meets -o, a suffix that reads as contemporary and clinical. Odermo projects skin expertise — strong for a dermatology platform, a professional skincare brand, or a healthtech service built around skin health and the science behind it.',
     highlights: ['Dermatology expertise without the clinical coldness', 'Strong skincare and healthtech sector positioning', 'Works for both professional and consumer-facing brands'],
   },
@@ -1781,7 +1917,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Alchemy and transformation — luxury, beauty, and premium innovation',
     categories: ['luxury', 'beauty', 'innovation'],
-    style: ['luxury', 'soft'],
+    feel: ['elegant', 'soft'],
+    fit: ['luxury', 'beauty', 'wellness'],
     description: 'Alchemy in its Spanish and Italian form — the ancient art of transformation made into a contemporary brand name. Alcamia reads as a company that changes things at the fundamental level, strong for a luxury brand, a beauty innovator, or a premium technology company where transformation is the core promise.',
     highlights: ['Alchemy transformation semantics in a premium name', 'Strong luxury and beauty innovation positioning', 'Ancient credibility with contemporary application'],
   },
@@ -1791,7 +1928,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Ideas at scale — investment, innovation, and intellectual capital platforms',
     categories: ['investment', 'innovation', 'professional'],
-    style: ['luxury', 'soft'],
+    feel: ['elegant', 'invented'],
+    fit: ['professional', 'fintech', 'tech'],
     description: 'Idea meets -rium, the suffix that implies a place of concentrated purpose. Iderium reads as where significant ideas are held, developed, and deployed — strong for an investment platform, an innovation consultancy, or a professional service built around intellectual capital.',
     highlights: ['Ideas + rium — a place where thinking compounds', 'Strong investment and innovation platform positioning', 'Premium intellectual register works across advisory sectors'],
   },
@@ -1801,7 +1939,8 @@ export const domains = [
     tld: '.com',
     tagline: 'Policy and community — govtech, legal, and public sector platforms',
     categories: ['govtech', 'legal', 'public'],
-    style: ['soft'],
+    feel: ['soft', 'invented'],
+    fit: ['professional', 'saas', 'tech'],
     description: 'Policy meets -bo, creating a name that reads as both principled and approachable. Polibo is strong for a govtech platform, a legal services company with public sector focus, or any organisation working at the intersection of policy, community, and technology.',
     highlights: ['Policy and community semantics in a modern form', 'Strong govtech and public sector positioning', 'Approachable register that reduces institutional distance'],
   },
