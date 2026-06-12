@@ -11,7 +11,7 @@ export const domains = [
       'Three clean syllables with a warm phonetic arc. The -anzo ending evokes Italian craft without literal translation — versatile for a product brand, platform, or creative studio.',
     highlights: [
       'Memorably phonetic — natural word-of-mouth potential',
-      'No dictionary conflict or trademark proximity risk',
+      'Clean invented construction — no common English word overlap',
       'Scales from startup to category leader',
     ],
   },
@@ -40,7 +40,7 @@ export const domains = [
     feel: ['italianate', 'invented'],
     fit: ['consumer', 'saas', 'tech'],
     description:
-      'A sibling to Lavanzo in phonetic structure, with a crisper opening. Works across sectors — tech, wellness, fintech — without belonging too literally to any one.',
+      'Three syllables with a clean Italian inflection — the -anzo ending gives it precision and memorability without belonging to any specific sector. A versatile foundation for tech, wellness, or fintech brands that want European character.',
     highlights: [
       'Three syllables, clean consonant structure',
       'Sector-neutral buyer profile',
@@ -395,7 +395,7 @@ export const domains = [
       'Three expressive syllables with a vibrant character. Felzora has the energy of a consumer brand that leads with personality — strong for beauty, food, lifestyle, or any DTC brand that wants to stand out in a crowded category.',
     highlights: [
       'High expressive energy — memorable in advertising contexts',
-      'No dictionary conflict or trademark proximity risk',
+      'Invented structure — no generic dictionary meanings',
       'Strong across beauty, food, and lifestyle categories',
     ],
   },
@@ -557,7 +557,7 @@ export const domains = [
     description:
       'Venezia softened into a modern brandable name. The -ezia ending carries centuries of Venetian luxury without the genericness of "Venice" — ideal for a travel brand, a luxury hospitality concept, or a premium lifestyle platform with European character.',
     highlights: [
-      'Venetian resonance without trademark proximity',
+      'Venetian resonance without using any protected name',
       'Immediate luxury and culture association',
       'Strong in European and global premium markets',
     ],
