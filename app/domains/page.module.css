@@ -1,3 +1,4 @@
+/* Header */
 .header {
   padding: 5rem var(--pad-x) 4rem;
   max-width: 680px;
@@ -29,162 +30,206 @@
   max-width: 480px;
 }
 
-/* Filters */
-.filters {
+/* Filter bar */
+.filterBar {
   background: var(--surface);
-  padding: 1.75rem 0;
+  padding: 1.5rem 0;
   border-bottom: 1px solid var(--border);
   position: sticky;
   top: 52px;
   z-index: 50;
 }
 
+.filterGroup {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  margin-bottom: 0.85rem;
+}
+
+.filterGroup:last-of-type { margin-bottom: 0; }
+
+.filterLabel {
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding-top: 0.5rem;
+  flex-shrink: 0;
+  width: 72px;
+}
+
 .filterRow {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.35rem;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .filterBtn {
   font-family: var(--font-body);
-  font-size: 0.68rem;
+  font-size: 0.65rem;
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
   text-transform: uppercase;
-  color: var(--muted);
   background: transparent;
   border: 1px solid var(--border);
-  padding: 0.45rem 0.9rem;
+  padding: 0.35rem 0.75rem;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.35rem;
   transition: all 0.15s;
+  color: var(--muted);
 }
 
-.filterBtn:hover {
-  color: var(--text);
-  border-color: var(--text);
+.filterBtn:hover { color: var(--text); border-color: var(--muted); }
+
+/* Feel active: gold */
+.feelActive {
+  color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  background: transparent;
 }
 
-.filterBtnActive {
-  color: var(--bg);
-  background: var(--text);
-  border-color: var(--text);
+/* Fit active: dark */
+.fitActive {
+  color: var(--bg) !important;
+  background: var(--text) !important;
+  border-color: var(--text) !important;
 }
 
-.filterCount {
-  font-size: 0.62rem;
-  color: inherit;
-  opacity: 0.5;
+.count {
+  font-size: 0.58rem;
+  opacity: 0.45;
   letter-spacing: 0;
 }
 
-.filterMeta {
+.resultMeta {
   font-size: 0.72rem;
   color: var(--muted);
   margin-top: 0.85rem;
-  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-/* Grid — curated collection */
-.grid {
-  padding: 0 0 5rem;
+.activeTag {
+  color: var(--text);
 }
+
+.clearBtn {
+  background: none;
+  border: none;
+  font-size: 0.68rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--muted);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  padding: 0;
+}
+
+.clearBtn:hover { color: var(--text); }
+
+/* Grid — original proportions, better spacing */
+.grid { padding: 4rem 0 5rem; }
 
 .domainGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1px;
-  background-color: var(--border);
 }
 
-/* Card */
-.domainCard {
-  background: var(--bg);
-  padding: 3rem 3rem 2.5rem;
+.domainCell {
+  padding: 2.75rem 0;
+  border-bottom: 1px solid var(--border);
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 0.55rem;
   text-decoration: none;
-  transition: background 0.2s;
-  min-height: 220px;
-  justify-content: space-between;
+  transition: opacity 0.15s;
 }
 
-.domainCard:hover {
-  background: var(--surface);
+.domainCell:hover { opacity: 0.7; }
+
+.left {
+  border-right: 1px solid var(--border);
+  padding-right: 3rem;
 }
 
-.cardTop {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
+.right { padding-left: 3rem; }
+.last  { border-bottom: none; }
 
-.cardName {
+/* Domain name */
+.domainName {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 3vw, 2.8rem);
+  font-size: 2rem;
   font-weight: 400;
   font-style: italic;
-  line-height: 1;
+  line-height: 1.05;
   color: var(--text);
 }
 
-.cardTld {
-  color: var(--gold);
-  font-weight: 300;
-}
+.domainTld { color: var(--gold); font-weight: 300; }
 
-.cardTagline {
+.domainTagline {
   font-size: 0.82rem;
   line-height: 1.55;
   color: var(--muted);
-  max-width: 320px;
 }
 
-.cardBottom {
+/* Chip rows */
+.chipRows {
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  margin-top: 2rem;
-}
-
-.cardStyles {
-  display: flex;
+  flex-direction: column;
   gap: 0.4rem;
+  margin-top: 0.35rem;
+}
+
+.feelChips,
+.fitChips {
+  display: flex;
+  gap: 0.35rem;
   flex-wrap: wrap;
 }
 
-.styleTag {
+.feelChip {
   font-size: 0.58rem;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: var(--gold);
-  opacity: 0.65;
+  border: 1px solid rgba(184,150,74,0.3);
+  padding: 0.18rem 0.5rem;
 }
 
-.cardInquire {
-  font-size: 0.66rem;
+.fitChip {
+  font-size: 0.58rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: var(--border);
+  padding: 0.18rem 0.5rem;
+}
+
+.inquire {
+  font-size: 0.65rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--muted);
-  transition: color 0.2s;
-  flex-shrink: 0;
-}
-
-.domainCard:hover .cardInquire {
-  color: var(--text);
+  margin-top: 0.5rem;
+  display: block;
 }
 
 .empty {
   font-size: 0.9rem;
   color: var(--muted);
   padding: 3rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-/* Contact prompt */
+/* Contact */
 .contactPrompt {
   background: var(--surface);
   padding: 4rem var(--pad-x);
@@ -206,7 +251,10 @@
 
 /* Mobile */
 @media (max-width: 640px) {
-  .filters { top: 48px; }
-  .domainGrid { grid-template-columns: 1fr; }
-  .domainCard { padding: 2.25rem var(--pad-x); min-height: auto; }
+  .filterBar  { top: 48px; }
+  .filterGroup { flex-direction: column; gap: 0.5rem; }
+  .filterLabel { width: auto; padding-top: 0; }
+  .domainGrid  { grid-template-columns: 1fr; }
+  .left  { border-right: none; padding-right: 0; }
+  .right { padding-left: 0; }
 }
