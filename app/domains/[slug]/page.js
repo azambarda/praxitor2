@@ -13,9 +13,24 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const domain = getDomain(params.slug)
   if (!domain) return {}
+  const title = `${domain.name}${domain.tld} — Praxitor`
+  const url   = `https://praxitor.com/domains/${domain.slug}/`
   return {
-    title: `${domain.name}${domain.tld} — Praxitor`,
+    title,
     description: domain.tagline,
+    openGraph: {
+      title,
+      description: domain.tagline,
+      type: 'website',
+      url,
+      images: [{ url: 'https://praxitor.com/og-image.png', width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description: domain.tagline,
+      images: ['https://praxitor.com/og-image.png'],
+    },
   }
 }
 
