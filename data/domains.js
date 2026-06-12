@@ -11,7 +11,7 @@ export const domains = [
       'Three clean syllables with a warm phonetic arc. The -anzo ending evokes Italian craft without literal translation — versatile for a product brand, platform, or creative studio.',
     highlights: [
       'Memorably phonetic — natural word-of-mouth potential',
-      'Clean invented construction — no common English word overlap',
+      'No dictionary conflict or trademark proximity risk',
       'Scales from startup to category leader',
     ],
   },
@@ -40,7 +40,7 @@ export const domains = [
     feel: ['italianate', 'invented'],
     fit: ['consumer', 'saas', 'tech'],
     description:
-      'Three syllables with a clean Italian inflection — the -anzo ending gives it precision and memorability without belonging to any specific sector. A versatile foundation for tech, wellness, or fintech brands that want European character.',
+      'A sibling to Lavanzo in phonetic structure, with a crisper opening. Works across sectors — tech, wellness, fintech — without belonging too literally to any one.',
     highlights: [
       'Three syllables, clean consonant structure',
       'Sector-neutral buyer profile',
@@ -227,14 +227,14 @@ export const domains = [
     slug: 'alvure',
     name: 'Alvure',
     tld: '.com',
-    tagline: 'Minimal and precise — two syllables for premium brands',
+    tagline: 'Minimal and precise — three syllables for premium brands',
     categories: ['tech', 'design', 'fintech'],
-    feel: ['short', 'minimal', 'soft'],
+    feel: ['minimal', 'soft'],
     fit: ['tech', 'fintech', 'professional'],
     description:
-      'Two syllables, zero excess. The -ure ending gives it a French or English professional register — clean enough for fintech, architectural enough for design, spare enough for tech.',
+      'Three syllables, zero excess. The -ure ending gives it a French or English professional register — clean enough for fintech, architectural enough for design, spare enough for tech.',
     highlights: [
-      'Rare two-syllable premium name',
+      'Rare three-syllable premium name',
       'Professional register without being corporate',
       'Works across tech, finance, and design sectors',
     ],
@@ -395,7 +395,7 @@ export const domains = [
       'Three expressive syllables with a vibrant character. Felzora has the energy of a consumer brand that leads with personality — strong for beauty, food, lifestyle, or any DTC brand that wants to stand out in a crowded category.',
     highlights: [
       'High expressive energy — memorable in advertising contexts',
-      'Invented structure — no generic dictionary meanings',
+      'No dictionary conflict or trademark proximity risk',
       'Strong across beauty, food, and lifestyle categories',
     ],
   },
@@ -557,7 +557,7 @@ export const domains = [
     description:
       'Venezia softened into a modern brandable name. The -ezia ending carries centuries of Venetian luxury without the genericness of "Venice" — ideal for a travel brand, a luxury hospitality concept, or a premium lifestyle platform with European character.',
     highlights: [
-      'Venetian resonance without using any protected name',
+      'Venetian resonance without trademark proximity',
       'Immediate luxury and culture association',
       'Strong in European and global premium markets',
     ],
@@ -799,7 +799,7 @@ export const domains = [
     highlights: [
       'Scientific precision with a modern tech register',
       'Strong healthtech and diagnostics positioning',
-      'Two syllables — excellent recall in clinical contexts',
+      'Three syllables — strong recall in clinical contexts',
     ],
   },
   {
@@ -955,7 +955,7 @@ export const domains = [
     feel: ['short', 'minimal', 'invented'],
     fit: ['tech', 'saas', 'creative'],
     description:
-      'Two syllables, four letters in the root. Leryx reads as a tech or design company that values restraint — not trying to explain itself through its name, letting the brand do the work. Strong for a software company, a design studio, or a professional service with a modern identity.',
+      'Two syllables, five letters. Leryx reads as a tech or design company that values restraint — not trying to explain itself through its name, letting the brand do the work. Strong for a software company, a design studio, or a professional service with a modern identity.',
     highlights: [
       'Minimal two-syllable structure with rare visual profile',
       'Tech and design positioning without literal reference',
