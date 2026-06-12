@@ -31,7 +31,7 @@ export default function Home() {
       {/* Featured domains */}
       <section className={styles.portfolio}>
         <div className="section-inner">
-          <span className="section-label">Selected Names</span>
+          <span className="section-label">From the portfolio</span>
           <div className={styles.domainGrid}>
             {featuredDomains.map((domain, i) => {
               const isLeft = i % 2 === 0
@@ -73,23 +73,23 @@ export default function Home() {
             {[
               {
                 num: 'I',
-                title: 'Reach out',
-                desc: 'Submit your interest and budget. All inquiries receive a response within 24 hours.',
+                title: 'Inquire',
+                desc: 'Tell us which name caught your attention and what you\'re building. We respond within 24 hours, always directly.',
               },
               {
                 num: 'II',
-                title: 'Negotiate',
-                desc: 'Direct negotiation with the owner — no brokers, no intermediaries, no markup.',
+                title: 'Discuss',
+                desc: 'No middleman. Direct conversation with the owner — honest pricing, no auction pressure, no broker markup.',
               },
               {
                 num: 'III',
-                title: 'Escrow',
-                desc: 'Funds held until transfer is complete. Full buyer protection on every transaction.',
+                title: 'Secure',
+                desc: 'Funds held in escrow until the domain is in your account. Not a dollar changes hands before that.',
               },
               {
                 num: 'IV',
-                title: 'Transfer',
-                desc: 'Domain moved to your registrar of choice in 24–48 hours.',
+                title: 'Yours',
+                desc: 'Transfer to your registrar completes in 24–48 hours. From this portfolio to your brand.',
               },
             ].map((step, i) => (
               <div key={step.num} className={styles.step}>
