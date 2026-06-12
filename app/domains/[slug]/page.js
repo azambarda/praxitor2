@@ -115,22 +115,26 @@ export default function DomainPage({ params }) {
         </div>
       </div>
 
-      {/* Related */}
+      {/* Related — diverse, spread across the portfolio */}
       <section className={styles.related}>
         <div className="section-inner">
           <span className="section-label">Browse more</span>
           <div className={styles.relatedLinks}>
-            {domains
-              .filter((d) => d.slug !== domain.slug)
-              .slice(0, 4)
-              .map((d) => (
-                <Link key={d.slug} href={`/domains/${d.slug}`} className={styles.relatedItem}>
-                  <span className={styles.relatedName}>
-                    {d.name}<span className={styles.relatedTld}>{d.tld}</span>
-                  </span>
-                  <span className={styles.relatedTagline}>{d.tagline}</span>
-                </Link>
-              ))}
+            {(() => {
+              const pool = domains.filter(d => d.slug !== domain.slug)
+              const seed = domain.slug.split('').reduce((a, c) => a + c.charCodeAt(0), 0)
+              const q = Math.floor(pool.length / 4)
+              return [0, 1, 2, 3]
+                .map(i => pool[(seed % q) + i * q])
+                .filter(Boolean)
+            })().map((d) => (
+              <Link key={d.slug} href={`/domains/${d.slug}`} className={styles.relatedItem}>
+                <span className={styles.relatedName}>
+                  {d.name}<span className={styles.relatedTld}>{d.tld}</span>
+                </span>
+                <span className={styles.relatedTagline}>{d.tagline}</span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
