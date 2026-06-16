@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import Nav from '../../components/Nav'
 import Footer from '../../components/Footer'
 import styles from './page.module.css'
@@ -52,10 +53,14 @@ export default function ContactPage() {
               <textarea className={styles.textarea} id="message" name="message" rows={5} required />
             </div>
 
+            <div className="h-captcha" data-captcha="true"></div>
+
             <button type="submit" className="btn-primary">
               Send message
             </button>
           </form>
+
+          <Script src="https://web3forms.com/client/script.js" strategy="lazyOnload" />
 
           <aside className={styles.sidebar}>
             <div className={styles.sideBlock}>
